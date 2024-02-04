@@ -1,0 +1,419 @@
+EventId,EventTemplate,Occurrences
+0,<*> <*> <*>HTTP<*>status <*> len <*> time <*>.<*>,9416
+1,[instance <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Creating image,1
+2,[instance <*> VM <*> (Lifecycle Event),6
+3,While synchronizing instance power states found <*> instances in the database and <*> instances on the hypervisor.,4
+4,[instance <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] <*> <*> <*> instance <*>,5
+5,image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (<*>checking,766
+6,image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (<*>in use on this node <*> local <*> on other nodes sharing this instance storage,766
+7,<*> base <*> /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,1502
+8,Creating event network-vif-plugged <*> for instance <*>,196
+9,[instance <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Instance <*> successfully.,2
+10,[instance <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Took <*>.<*> seconds to <*>,4
+11,[instance <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Deletion of <*>complete,1
+12,HTTP exception thrown No instances found for any event,196
+13,[instance <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] <*>,15
+14,[instance <*> Total <*> <*> <*> used <*>.<*> <*>,587
+15,[instance <*> <*> limit not specified defaulting to unlimited,392
+16,Auditing locally available compute resources for node cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us,135
+17,Total usable vcpus <*> total allocated vcpus <*>,135
+18,Final resource view name cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us phys_ram <*>MB used_ram <*>MB phys_disk <*>GB used_disk <*>GB total_vcpus <*> used_vcpus <*> pci_stats [],135
+19,Compute_service record updated for cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us,135
+20,[instance <*> During sync_power_state the instance has a pending task (spawning). Skip.,384
+21,[instance <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Took <*>.<*> seconds to <*>,4
+22,[instance <*> Attempting claim memory <*> MB disk <*> GB vcpus <*> CPU,195
+23,[instance <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] <*>,13
+24,[instance <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Took <*>.<*> seconds to <*>,4
+25,Successfully synced instances from host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us'.,38
+26,[instance <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] <*>,13
+27,[instance <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Took <*>.<*> seconds to <*>,4
+28,[instance <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] <*>,13
+29,[instance <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Took <*>.<*> seconds to <*>,4
+30,[instance e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] <*>,13
+31,The instance sync for host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.,29
+32,[instance e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Took <*>.<*> seconds to <*>,4
+33,[instance <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] <*>,13
+34,[instance <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Took <*>.<*> seconds to <*>,4
+35,[instance <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] <*>,13
+36,[instance <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Took <*>.<*> seconds to <*>,4
+37,[instance <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] <*>,13
+38,[instance <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Took <*>.<*> seconds to <*>,4
+39,[instance <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] <*>,13
+40,[instance <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Took <*>.<*> seconds to <*>,4
+41,Base or swap file too young to remove /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,74
+42,[instance ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] <*>,13
+43,[instance ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Took <*>.<*> seconds to <*>,4
+44,[instance <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] <*>,13
+45,[instance <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Took <*>.<*> seconds to <*>,4
+46,[instance <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] <*>,13
+47,[instance <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Took <*>.<*> seconds to <*>,4
+48,[instance df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] <*>,13
+49,[instance df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Took <*>.<*> seconds to <*>,4
+50,[instance <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] <*>,13
+51,[instance <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Took <*>.<*> seconds to <*>,4
+52,[instance af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] <*>,13
+53,[instance af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Took <*>.<*> seconds to <*>,4
+54,[instance f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] <*>,13
+55,[instance f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Took <*>.<*> seconds to <*>,4
+56,[instance b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] <*>,13
+57,couldn't obtain the vcpu count from domain id b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*> exception Requested operation is not valid cpu affinity is not supported,1
+58,[instance b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Took <*>.<*> seconds to <*>,4
+59,[instance a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] <*>,13
+60,[instance a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Took <*>.<*> seconds to <*>,4
+61,[instance d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] <*>,13
+62,[instance d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Took <*>.<*> seconds to <*>,4
+63,[instance <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] <*>,13
+64,[instance <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Took <*>.<*> seconds to <*>,4
+65,[instance <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] <*>,13
+66,[instance <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Took <*>.<*> seconds to <*>,4
+67,[instance <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] <*>,13
+68,[instance <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Took <*>.<*> seconds to <*>,4
+69,[instance cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] <*>,13
+70,[instance cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Took <*>.<*> seconds to <*>,4
+71,[instance f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] <*>,13
+72,[instance f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Took <*>.<*> seconds to <*>,4
+73,[instance <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] <*>,13
+74,[instance <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Took <*>.<*> seconds to <*>,4
+75,[instance <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] <*>,13
+76,[instance <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Took <*>.<*> seconds to <*>,4
+77,[instance fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] <*>,13
+78,[instance fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Took <*>.<*> seconds to <*>,4
+79,[instance <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] <*>,13
+80,[instance <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Took <*>.<*> seconds to <*>,4
+81,[instance <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] <*>,13
+82,[instance <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Took <*>.<*> seconds to <*>,4
+83,[instance df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] <*>,13
+84,Running instance usage audit for host cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us from <*>-<*>-<*> <*> <*> <*> to <*>-<*>-<*> <*> <*> <*>. <*> instances.,2
+85,[instance df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Took <*>.<*> seconds to <*>,4
+86,[instance <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] <*>,13
+87,[instance <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Took <*>.<*> seconds to <*>,4
+88,[instance b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] <*>,13
+89,[instance b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Took <*>.<*> seconds to <*>,4
+90,[instance e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] <*>,13
+91,[instance e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Took <*>.<*> seconds to <*>,4
+92,[instance <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] <*>,13
+93,[instance <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Took <*>.<*> seconds to <*>,4
+94,[instance d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] <*>,13
+95,[instance d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Took <*>.<*> seconds to <*>,4
+96,[instance <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] <*>,13
+97,[instance <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Took <*>.<*> seconds to <*>,4
+98,[instance <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] <*>,13
+99,[instance <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Took <*>.<*> seconds to <*>,4
+100,[instance <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] <*>,13
+101,[instance <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Took <*>.<*> seconds to <*>,4
+102,[instance <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] <*>,13
+103,[instance <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Took <*>.<*> seconds to <*>,4
+104,[instance fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] <*>,13
+105,[instance fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Took <*>.<*> seconds to <*>,4
+106,[instance aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] <*>,13
+107,[instance aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Took <*>.<*> seconds to <*>,4
+108,[instance <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] <*>,13
+109,[instance <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Took <*>.<*> seconds to <*>,4
+110,[instance f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] <*>,13
+111,[instance f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Took <*>.<*> seconds to <*>,4
+112,[instance be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] <*>,13
+113,[instance be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Took <*>.<*> seconds to <*>,4
+114,[instance <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] <*>,13
+115,[instance <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Took <*>.<*> seconds to <*>,4
+116,[instance f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] <*>,13
+117,[instance f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Took <*>.<*> seconds to <*>,4
+118,[instance <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] <*>,13
+119,[instance <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Took <*>.<*> seconds to <*>,4
+120,[instance <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] <*>,13
+121,[instance <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Took <*>.<*> seconds to <*>,4
+122,[instance c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] <*>,13
+123,[instance c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Took <*>.<*> seconds to <*>,4
+124,[instance <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] <*>,13
+125,[instance <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Took <*>.<*> seconds to <*>,4
+126,[instance bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] <*>,13
+127,[instance bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Took <*>.<*> seconds to <*>,4
+128,[instance f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] <*>,13
+129,[instance f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Took <*>.<*> seconds to <*>,4
+130,[instance <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] <*>,13
+131,[instance <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Took <*>.<*> seconds to <*>,4
+132,[instance edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] <*>,13
+133,[instance edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Took <*>.<*> seconds to <*>,4
+134,[instance <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] <*>,13
+135,[instance <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Took <*>.<*> seconds to <*>,4
+136,[instance <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] <*>,13
+137,[instance <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Took <*>.<*> seconds to <*>,4
+138,[instance <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] <*>,13
+139,[instance <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Took <*>.<*> seconds to <*>,4
+140,[instance <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] <*>,13
+141,[instance <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Took <*>.<*> seconds to <*>,4
+142,[instance <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] <*>,13
+143,[instance <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Took <*>.<*> seconds to <*>,4
+144,[instance <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] <*>,13
+145,[instance <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Took <*>.<*> seconds to <*>,4
+146,[instance <*>da-f<*>c-<*>aea-<*>dab-e<*>b] <*>,13
+147,[instance <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Took <*>.<*> seconds to <*>,4
+148,[instance <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] <*>,13
+149,[instance <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Took <*>.<*> seconds to <*>,4
+150,[instance a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] <*>,13
+151,[instance a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Took <*>.<*> seconds to <*>,4
+152,[instance e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] <*>,13
+153,[instance e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Took <*>.<*> seconds to <*>,4
+154,[instance e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] <*>,13
+155,[instance e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Took <*>.<*> seconds to <*>,4
+156,[instance <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] <*>,13
+157,[instance <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Took <*>.<*> seconds to <*>,4
+158,[instance <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] <*>,13
+159,[instance <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Took <*>.<*> seconds to <*>,4
+160,[instance <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] <*>,13
+161,[instance <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Took <*>.<*> seconds to <*>,4
+162,[instance <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] <*>,13
+163,[instance <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Took <*>.<*> seconds to <*>,4
+164,[instance b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] <*>,13
+165,[instance b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Took <*>.<*> seconds to <*>,4
+166,[instance <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] <*>,13
+167,[instance <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Took <*>.<*> seconds to <*>,4
+168,[instance <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] <*>,13
+169,[instance <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Took <*>.<*> seconds to <*>,4
+170,[instance <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] <*>,13
+171,[instance <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Took <*>.<*> seconds to <*>,4
+172,[instance d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] <*>,13
+173,[instance d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Took <*>.<*> seconds to <*>,4
+174,[instance <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] <*>,13
+175,[instance <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Took <*>.<*> seconds to <*>,4
+176,[instance <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] <*>,13
+177,[instance <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Took <*>.<*> seconds to <*>,4
+178,[instance a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] <*>,13
+179,[instance a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Took <*>.<*> seconds to <*>,4
+180,[instance e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] <*>,13
+181,[instance e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Took <*>.<*> seconds to <*>,4
+182,[instance f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] <*>,13
+183,[instance f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Took <*>.<*> seconds to <*>,4
+184,[instance edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] <*>,13
+185,[instance edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Took <*>.<*> seconds to <*>,4
+186,[instance <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] <*>,13
+187,[instance <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Took <*>.<*> seconds to <*>,4
+188,[instance <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] <*>,13
+189,[instance <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Took <*>.<*> seconds to <*>,4
+190,[instance a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] <*>,13
+191,[instance a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Took <*>.<*> seconds to <*>,4
+192,[instance b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] <*>,13
+193,[instance b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Took <*>.<*> seconds to <*>,4
+194,[instance db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] <*>,13
+195,[instance db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Took <*>.<*> seconds to <*>,4
+196,[instance f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] <*>,13
+197,[instance f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Took <*>.<*> seconds to <*>,4
+198,[instance <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] <*>,13
+199,[instance <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Took <*>.<*> seconds to <*>,4
+200,[instance <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] <*>,13
+201,[instance <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Took <*>.<*> seconds to <*>,4
+202,[instance a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] <*>,13
+203,[instance a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Took <*>.<*> seconds to <*>,4
+204,[instance <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] <*>,13
+205,[instance <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Took <*>.<*> seconds to <*>,4
+206,[instance <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] <*>,13
+207,[instance <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Took <*>.<*> seconds to <*>,4
+208,[instance <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] <*>,13
+209,[instance <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Took <*>.<*> seconds to <*>,4
+210,[instance daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] <*>,13
+211,[instance daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Took <*>.<*> seconds to <*>,4
+212,[instance <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] <*>,13
+213,[instance <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Took <*>.<*> seconds to <*>,4
+214,[instance daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] <*>,13
+215,[instance daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Took <*>.<*> seconds to <*>,4
+216,[instance <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] <*>,13
+217,[instance <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Took <*>.<*> seconds to <*>,4
+218,[instance f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] <*>,13
+219,[instance f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Took <*>.<*> seconds to <*>,4
+220,[instance <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] <*>,13
+221,[instance <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Took <*>.<*> seconds to <*>,4
+222,[instance <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] <*>,13
+223,[instance <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] Took <*>.<*> seconds to <*>,4
+224,[instance <*>c<*>c<*>fd<*>-bef<*>-<*>fb<*>-<*>f-<*>be<*>ba<*>d<*>b<*>] <*>,13
+225,[instance <*>c<*>c<*>fd<*>-bef<*>-<*>fb<*>-<*>f-<*>be<*>ba<*>d<*>b<*>] Took <*>.<*> seconds to <*>,4
+226,[instance <*>a<*>d<*>ed-<*>a-<*>c<*>-abc<*>-b<*>c<*>bfe<*>] <*>,13
+227,[instance <*>a<*>d<*>ed-<*>a-<*>c<*>-abc<*>-b<*>c<*>bfe<*>] Took <*>.<*> seconds to <*>,4
+228,[instance df<*>feb<*>-<*>e<*>-<*>c<*>-af<*>e-<*>bb<*>e<*>] <*>,13
+229,[instance df<*>feb<*>-<*>e<*>-<*>c<*>-af<*>e-<*>bb<*>e<*>] Took <*>.<*> seconds to <*>,4
+230,[instance <*>b<*>-<*>fe<*>-<*>d<*>-<*>a-<*>b<*>b<*>f<*>] <*>,13
+231,[instance <*>b<*>-<*>fe<*>-<*>d<*>-<*>a-<*>b<*>b<*>f<*>] Took <*>.<*> seconds to <*>,4
+232,[instance cf<*>c-f<*>cd-<*>ce-b<*>-<*>b<*>bcd] <*>,13
+233,[instance cf<*>c-f<*>cd-<*>ce-b<*>-<*>b<*>bcd] Took <*>.<*> seconds to <*>,4
+234,[instance <*>d<*>f<*>d-<*>fe<*>-<*>cfa-<*>fde-<*>b<*>e<*>cd<*>c<*>] <*>,13
+235,[instance <*>d<*>f<*>d-<*>fe<*>-<*>cfa-<*>fde-<*>b<*>e<*>cd<*>c<*>] Took <*>.<*> seconds to <*>,4
+236,[instance <*>ab<*>fcd<*>-<*>a<*>-<*>f<*>-b<*>-e<*>e<*>b<*>a<*>] <*>,13
+237,[instance <*>ab<*>fcd<*>-<*>a<*>-<*>f<*>-b<*>-e<*>e<*>b<*>a<*>] Took <*>.<*> seconds to <*>,4
+238,[instance <*>ac<*>aa<*>-b<*>-<*>a-a<*>f<*>-<*>ce<*>bd<*>] <*>,13
+239,[instance <*>ac<*>aa<*>-b<*>-<*>a-a<*>f<*>-<*>ce<*>bd<*>] Took <*>.<*> seconds to <*>,4
+240,[instance <*>f<*>ff<*>-a<*>fb-<*>e<*>-b<*>cf-c<*>a<*>efc<*>f<*>] <*>,13
+241,[instance <*>f<*>ff<*>-a<*>fb-<*>e<*>-b<*>cf-c<*>a<*>efc<*>f<*>] Took <*>.<*> seconds to <*>,4
+242,[instance b<*>a<*>-<*>a<*>f-<*>df-<*>f<*>-<*>c<*>ec<*>a<*>] <*>,13
+243,[instance b<*>a<*>-<*>a<*>f-<*>df-<*>f<*>-<*>c<*>ec<*>a<*>] Took <*>.<*> seconds to <*>,4
+244,[instance e<*>d-b<*>c<*>-<*>edd-b<*>f-d<*>c<*>b<*>] <*>,13
+245,[instance e<*>d-b<*>c<*>-<*>edd-b<*>f-d<*>c<*>b<*>] Took <*>.<*> seconds to <*>,4
+246,[instance <*>e<*>a<*>c<*>-f<*>-<*>e-<*>e<*>c-<*>d<*>afdf<*>] <*>,13
+247,[instance <*>e<*>a<*>c<*>-f<*>-<*>e-<*>e<*>c-<*>d<*>afdf<*>] Took <*>.<*> seconds to <*>,4
+248,[instance <*>a<*>ed<*>-bc<*>-<*>ef<*>-<*>b<*>-cba<*>bafa<*>] <*>,13
+249,[instance <*>a<*>ed<*>-bc<*>-<*>ef<*>-<*>b<*>-cba<*>bafa<*>] Took <*>.<*> seconds to <*>,4
+250,[instance <*>eb<*>e<*>-<*>a-<*>-b<*>-d<*>ab<*>cf<*>c] <*>,13
+251,[instance <*>eb<*>e<*>-<*>a-<*>-b<*>-d<*>ab<*>cf<*>c] Took <*>.<*> seconds to <*>,4
+252,[instance <*>f<*>cf<*>-b<*>-<*>-<*>a<*>-<*>b<*>b<*>fb<*>] <*>,13
+253,[instance <*>f<*>cf<*>-b<*>-<*>-<*>a<*>-<*>b<*>b<*>fb<*>] Took <*>.<*> seconds to <*>,4
+254,[instance <*>a<*>d<*>c<*>-be<*>d-<*>a<*>-b<*>b-<*>be<*>ec<*>] <*>,13
+255,[instance <*>a<*>d<*>c<*>-be<*>d-<*>a<*>-b<*>b-<*>be<*>ec<*>] Took <*>.<*> seconds to <*>,4
+256,[instance <*>c<*>eea-<*>-<*>c<*>-bc<*>-bebd<*>c<*>d<*>f<*>] <*>,13
+257,[instance <*>c<*>eea-<*>-<*>c<*>-bc<*>-bebd<*>c<*>d<*>f<*>] Took <*>.<*> seconds to <*>,4
+258,[instance <*>f<*>d<*>-dfa<*>-<*>-<*>a<*>-<*>cf<*>db<*>] <*>,13
+259,[instance <*>f<*>d<*>-dfa<*>-<*>-<*>a<*>-<*>cf<*>db<*>] Took <*>.<*> seconds to <*>,4
+260,[instance <*>fd<*>ce<*>-ad<*>d-<*>f-<*>e<*>-ca<*>aa<*>] <*>,13
+261,[instance <*>fd<*>ce<*>-ad<*>d-<*>f-<*>e<*>-ca<*>aa<*>] Took <*>.<*> seconds to <*>,4
+262,[instance f<*>cd<*>-e<*>a-<*>fa<*>-<*>-<*>e<*>c<*>dbb] <*>,13
+263,[instance f<*>cd<*>-e<*>a-<*>fa<*>-<*>-<*>e<*>c<*>dbb] Took <*>.<*> seconds to <*>,4
+264,[instance d<*>bdaf<*>-<*>a<*>-<*>dee-<*>-<*>a<*>fc<*>c<*>d] <*>,13
+265,[instance d<*>bdaf<*>-<*>a<*>-<*>dee-<*>-<*>a<*>fc<*>c<*>d] Took <*>.<*> seconds to <*>,4
+266,[instance f<*>c<*>e<*>-<*>c-<*>-<*>-c<*>d<*>d<*>a<*>d<*>b] <*>,13
+267,[instance f<*>c<*>e<*>-<*>c-<*>-<*>-c<*>d<*>d<*>a<*>d<*>b] Took <*>.<*> seconds to <*>,4
+268,[instance <*>da<*>c<*>-c<*>a-<*>-<*>ad<*>-<*>f<*>] <*>,13
+269,[instance <*>da<*>c<*>-c<*>a-<*>-<*>ad<*>-<*>f<*>] Took <*>.<*> seconds to <*>,4
+270,[instance <*>c<*>f-fd<*>-<*>f<*>-<*>c<*>-<*>bf<*>b<*>d<*>e<*>b] <*>,13
+271,[instance <*>c<*>f-fd<*>-<*>f<*>-<*>c<*>-<*>bf<*>b<*>d<*>e<*>b] Took <*>.<*> seconds to <*>,4
+272,[instance <*>a<*>a-<*>-<*>-b<*>d<*>-b<*>e<*>a<*>cc<*>ab] <*>,13
+273,[instance <*>a<*>a-<*>-<*>-b<*>d<*>-b<*>e<*>a<*>cc<*>ab] Took <*>.<*> seconds to <*>,4
+274,[instance <*>f<*>fbbd<*>-db<*>-<*>c<*>-<*>-<*>edfffd<*>c<*>] <*>,13
+275,[instance <*>f<*>fbbd<*>-db<*>-<*>c<*>-<*>-<*>edfffd<*>c<*>] Took <*>.<*> seconds to <*>,4
+276,[instance <*>bcbad<*>-<*>f<*>-<*>cfe-a<*>cb-c<*>a<*>c<*>d<*>] <*>,13
+277,[instance <*>bcbad<*>-<*>f<*>-<*>cfe-a<*>cb-c<*>a<*>c<*>d<*>] Took <*>.<*> seconds to <*>,4
+278,[instance d<*>c<*>b<*>-<*>-<*>d<*>-ace<*>-<*>a<*>] <*>,13
+279,[instance d<*>c<*>b<*>-<*>-<*>d<*>-ace<*>-<*>a<*>] Took <*>.<*> seconds to <*>,4
+280,[instance <*>fd<*>c-<*>edc-<*>-baae-ba<*>d<*>a<*>acfc] <*>,13
+281,[instance <*>fd<*>c-<*>edc-<*>-baae-ba<*>d<*>a<*>acfc] Took <*>.<*> seconds to <*>,4
+282,[instance ae<*>dff-c<*>ad-<*>d<*>-ac<*>-bbcd<*>ccca<*>] <*>,13
+283,[instance ae<*>dff-c<*>ad-<*>d<*>-ac<*>-bbcd<*>ccca<*>] Took <*>.<*> seconds to <*>,4
+284,[instance <*>b<*>c<*>-<*>bd-<*>fd-bf<*>c-<*>c<*>e<*>db<*>] <*>,13
+285,[instance <*>b<*>c<*>-<*>bd-<*>fd-bf<*>c-<*>c<*>e<*>db<*>] Took <*>.<*> seconds to <*>,4
+286,[instance <*>abb<*>b-c<*>e<*>-<*>e<*>-a<*>-<*>ccd<*>bbb<*>] <*>,13
+287,[instance <*>abb<*>b-c<*>e<*>-<*>e<*>-a<*>-<*>ccd<*>bbb<*>] Took <*>.<*> seconds to <*>,4
+288,[instance <*>fe<*>d-bd<*>-<*>f<*>c-af<*>-<*>e<*>b<*>fa<*>] <*>,13
+289,[instance <*>fe<*>d-bd<*>-<*>f<*>c-af<*>-<*>e<*>b<*>fa<*>] Took <*>.<*> seconds to <*>,4
+290,[instance f<*>bf<*>-<*>-<*>bc-<*>d<*>-<*>cb<*>e<*>] <*>,13
+291,[instance f<*>bf<*>-<*>-<*>bc-<*>d<*>-<*>cb<*>e<*>] Took <*>.<*> seconds to <*>,4
+292,[instance <*>ce<*>-aa<*>a-<*>-b<*>f-e<*>c<*>d<*>a<*>f<*>] <*>,13
+293,[instance <*>ce<*>-aa<*>a-<*>-b<*>f-e<*>c<*>d<*>a<*>f<*>] Took <*>.<*> seconds to <*>,4
+294,[instance <*>a<*>a<*>d<*>-<*>-<*>ae-be<*>-<*>b<*>f<*>] <*>,13
+295,[instance <*>a<*>a<*>d<*>-<*>-<*>ae-be<*>-<*>b<*>f<*>] Took <*>.<*> seconds to <*>,4
+296,[instance <*>e<*>e<*>d-<*>e<*>f-<*>-<*>e<*>-<*>baf<*>d] <*>,13
+297,[instance <*>e<*>e<*>d-<*>e<*>f-<*>-<*>e<*>-<*>baf<*>d] Took <*>.<*> seconds to <*>,4
+298,[instance <*>d<*>b<*>d<*>-<*>b<*>b-<*>f<*>-a<*>-f<*>a<*>c<*>db] <*>,13
+299,[instance <*>d<*>b<*>d<*>-<*>b<*>b-<*>f<*>-a<*>-f<*>a<*>c<*>db] Took <*>.<*> seconds to <*>,4
+300,[instance <*>f<*>f-b<*>b-<*>ad<*>-<*>-<*>d<*>f<*>a<*>] <*>,13
+301,[instance <*>f<*>f-b<*>b-<*>ad<*>-<*>-<*>d<*>f<*>a<*>] Took <*>.<*> seconds to <*>,4
+302,[instance <*>e<*>c-<*>-<*>-<*>e<*>a-f<*>bcaff<*>d<*>] <*>,13
+303,[instance <*>e<*>c-<*>-<*>-<*>e<*>a-f<*>bcaff<*>d<*>] Took <*>.<*> seconds to <*>,4
+304,[instance bdce<*>-<*>-<*>b-af<*>-<*>c<*>dc] <*>,13
+305,[instance bdce<*>-<*>-<*>b-af<*>-<*>c<*>dc] Took <*>.<*> seconds to <*>,4
+306,[instance c<*>c<*>da<*>-<*>b<*>f-<*>b<*>c-<*>-a<*>d<*>a<*>a] <*>,13
+307,[instance c<*>c<*>da<*>-<*>b<*>f-<*>b<*>c-<*>-a<*>d<*>a<*>a] Took <*>.<*> seconds to <*>,4
+308,[instance <*>e<*>e<*>-<*>d<*>a-<*>-b<*>-<*>f<*>e<*>fecb] <*>,13
+309,[instance <*>e<*>e<*>-<*>d<*>a-<*>-b<*>-<*>f<*>e<*>fecb] Took <*>.<*> seconds to <*>,4
+310,[instance aa<*>a<*>c-<*>ec<*>-<*>ff-a<*>-ed<*>c<*>f<*>b<*>] <*>,13
+311,[instance aa<*>a<*>c-<*>ec<*>-<*>ff-a<*>-ed<*>c<*>f<*>b<*>] Took <*>.<*> seconds to <*>,4
+312,[instance <*>cf<*>-eb<*>-<*>c<*>-a<*>-<*>ccad<*>ff<*>d] <*>,13
+313,[instance <*>cf<*>-eb<*>-<*>c<*>-a<*>-<*>ccad<*>ff<*>d] Took <*>.<*> seconds to <*>,4
+314,[instance f<*>fc<*>ae<*>-<*>f<*>-<*>f<*>-<*>fda-<*>a<*>] <*>,13
+315,[instance f<*>fc<*>ae<*>-<*>f<*>-<*>f<*>-<*>fda-<*>a<*>] Took <*>.<*> seconds to <*>,4
+316,[instance b<*>ceef<*>b-<*>ee<*>-<*>d-<*>fe-fc<*>a<*>e<*>] <*>,13
+317,[instance b<*>ceef<*>b-<*>ee<*>-<*>d-<*>fe-fc<*>a<*>e<*>] Took <*>.<*> seconds to <*>,4
+318,[instance f<*>d<*>e<*>-<*>de-<*>b-<*>-<*>d<*>d<*>d] <*>,13
+319,[instance f<*>d<*>e<*>-<*>de-<*>b-<*>-<*>d<*>d<*>d] Took <*>.<*> seconds to <*>,4
+320,[instance <*>ebb<*>a<*>-<*>bf-<*>-a<*>e<*>-<*>cedc<*>fb] <*>,13
+321,[instance <*>ebb<*>a<*>-<*>bf-<*>-a<*>e<*>-<*>cedc<*>fb] Took <*>.<*> seconds to <*>,4
+322,[instance <*>cf<*>-a<*>a-<*>e-b<*>d-<*>be<*>bfe<*>eb] <*>,13
+323,[instance <*>cf<*>-a<*>a-<*>e-b<*>d-<*>be<*>bfe<*>eb] Took <*>.<*> seconds to <*>,4
+324,[instance ce<*>a<*>a-f<*>-<*>f-bb<*>f-dfd<*>c<*>] <*>,13
+325,[instance ce<*>a<*>a-f<*>-<*>f-bb<*>f-dfd<*>c<*>] Took <*>.<*> seconds to <*>,4
+326,[instance <*>b<*>-ee<*>d-<*>df-<*>-d<*>a<*>b<*>f<*>eb] <*>,13
+327,[instance <*>b<*>-ee<*>d-<*>df-<*>-d<*>a<*>b<*>f<*>eb] Took <*>.<*> seconds to <*>,4
+328,[instance <*>cbe-eed<*>-<*>e<*>-<*>f<*>-<*>a<*>a<*>a<*>e] <*>,13
+329,[instance <*>cbe-eed<*>-<*>e<*>-<*>f<*>-<*>a<*>a<*>a<*>e] Took <*>.<*> seconds to <*>,4
+330,[instance <*>b<*>d-ec<*>-<*>a<*>f-a<*>-<*>dcb<*>af<*>de<*>e] <*>,13
+331,[instance <*>b<*>d-ec<*>-<*>a<*>f-a<*>-<*>dcb<*>af<*>de<*>e] Took <*>.<*> seconds to <*>,4
+332,[instance <*>edf<*>a<*>-<*>c<*>-<*>-<*>-<*>fce<*>b<*>df<*>] <*>,13
+333,[instance <*>edf<*>a<*>-<*>c<*>-<*>-<*>-<*>fce<*>b<*>df<*>] Took <*>.<*> seconds to <*>,4
+334,[instance <*>fbe<*>-<*>f-<*>-a<*>-<*>b<*>a<*>f<*>] <*>,13
+335,[instance <*>fbe<*>-<*>f-<*>-a<*>-<*>b<*>a<*>f<*>] Took <*>.<*> seconds to <*>,4
+336,[instance <*>d<*>-e<*>-<*>a-ae<*>-<*>c<*>d<*>b<*>] <*>,13
+337,[instance <*>d<*>-e<*>-<*>a-ae<*>-<*>c<*>d<*>b<*>] Took <*>.<*> seconds to <*>,4
+338,[instance <*>-<*>-<*>-<*>-ffb<*>ffd<*>d<*>ac] <*>,13
+339,[instance <*>-<*>-<*>-<*>-ffb<*>ffd<*>d<*>ac] Took <*>.<*> seconds to <*>,4
+340,[instance b<*>e<*>f<*>e-<*>ca-<*>ef-<*>-<*>a<*>e<*>afb] <*>,13
+341,[instance b<*>e<*>f<*>e-<*>ca-<*>ef-<*>-<*>a<*>e<*>afb] Took <*>.<*> seconds to <*>,4
+342,[instance <*>e<*>-e<*>a<*>-<*>ee<*>-b<*>d<*>-<*>e<*>f<*>b<*>f<*>] <*>,13
+343,[instance <*>e<*>-e<*>a<*>-<*>ee<*>-b<*>d<*>-<*>e<*>f<*>b<*>f<*>] Took <*>.<*> seconds to <*>,4
+344,[instance f<*>fc<*>d<*>-<*>e<*>-<*>d<*>-aac<*>-<*>b<*>d<*>db<*>ea] <*>,13
+345,[instance f<*>fc<*>d<*>-<*>e<*>-<*>d<*>-aac<*>-<*>b<*>d<*>db<*>ea] Took <*>.<*> seconds to <*>,4
+346,[instance <*>ec<*>-<*>-<*>-ab<*>d-<*>b<*>a<*>aa] <*>,13
+347,[instance <*>ec<*>-<*>-<*>-ab<*>d-<*>b<*>a<*>aa] Took <*>.<*> seconds to <*>,4
+348,[instance be<*>c-fcdd-<*>b<*>-a<*>d<*>-<*>a<*>dc<*>cc] <*>,13
+349,[instance be<*>c-fcdd-<*>b<*>-a<*>d<*>-<*>a<*>dc<*>cc] Took <*>.<*> seconds to <*>,4
+350,[instance <*>c-a<*>d-<*>-<*>-<*>ec<*>ee<*>] <*>,13
+351,[instance <*>c-a<*>d-<*>-<*>-<*>ec<*>ee<*>] Took <*>.<*> seconds to <*>,4
+352,[instance d<*>b<*>a<*>d-<*>-<*>-<*>d<*>-<*>f<*>bf<*>] <*>,13
+353,[instance d<*>b<*>a<*>d-<*>-<*>-<*>d<*>-<*>f<*>bf<*>] Took <*>.<*> seconds to <*>,4
+354,[instance <*>fe<*>b-<*>a<*>f-<*>-bd<*>d-<*>d<*>dea<*>bce] <*>,13
+355,[instance <*>fe<*>b-<*>a<*>f-<*>-bd<*>d-<*>d<*>dea<*>bce] Took <*>.<*> seconds to <*>,4
+356,[instance a<*>b<*>ae-af<*>-<*>c<*>-<*>-<*>bc<*>bf<*>f] <*>,13
+357,[instance a<*>b<*>ae-af<*>-<*>c<*>-<*>-<*>bc<*>bf<*>f] Took <*>.<*> seconds to <*>,4
+358,[instance <*>d<*>-<*>-<*>ce-<*>c<*>c-<*>d<*>bf<*>e<*>af] <*>,13
+359,[instance <*>d<*>-<*>-<*>ce-<*>c<*>c-<*>d<*>bf<*>e<*>af] Took <*>.<*> seconds to <*>,4
+360,[instance <*>b<*>dddf-<*>d<*>-<*>c<*>-<*>a<*>-<*>b<*>fd<*>] <*>,13
+361,[instance <*>b<*>dddf-<*>d<*>-<*>c<*>-<*>a<*>-<*>b<*>fd<*>] Took <*>.<*> seconds to <*>,4
+362,[instance f<*>d<*>ad<*>-<*>d-<*>-a<*>-<*>ca<*>c<*>] <*>,13
+363,[instance f<*>d<*>ad<*>-<*>d-<*>-a<*>-<*>ca<*>c<*>] Took <*>.<*> seconds to <*>,4
+364,[instance <*>caef<*>b-c<*>f-<*>bf<*>-bb<*>-c<*>c<*>c<*>] <*>,13
+365,[instance <*>caef<*>b-c<*>f-<*>bf<*>-bb<*>-c<*>c<*>c<*>] Took <*>.<*> seconds to <*>,4
+366,[instance c<*>cd<*>d<*>-<*>-<*>-a<*>-<*>be<*>baa<*>] <*>,13
+367,[instance c<*>cd<*>d<*>-<*>-<*>-a<*>-<*>be<*>baa<*>] Took <*>.<*> seconds to <*>,4
+368,[instance a<*>e<*>c-<*>ef-<*>-<*>-<*>ff<*>a] <*>,13
+369,[instance a<*>e<*>c-<*>ef-<*>-<*>-<*>ff<*>a] Took <*>.<*> seconds to <*>,4
+370,[instance <*>ee<*>ca<*>-<*>b<*>-<*>f<*>b-<*>d<*>-<*>ec<*>e<*>a<*>] <*>,13
+371,[instance <*>ee<*>ca<*>-<*>b<*>-<*>f<*>b-<*>d<*>-<*>ec<*>e<*>a<*>] Took <*>.<*> seconds to <*>,4
+372,[instance <*>e<*>c-c<*>-<*>a<*>-a<*>b-<*>a<*>b<*>] <*>,13
+373,[instance <*>e<*>c-c<*>-<*>a<*>-a<*>b-<*>a<*>b<*>] Took <*>.<*> seconds to <*>,4
+374,[instance <*>b<*>-<*>-<*>d<*>-bc<*>c-e<*>ff<*>eeeee] <*>,13
+375,[instance <*>b<*>-<*>-<*>d<*>-bc<*>c-e<*>ff<*>eeeee] Took <*>.<*> seconds to <*>,4
+376,[instance <*>fd<*>be<*>-<*>fc-<*>fb<*>-<*>d<*>-fc<*>c<*>c<*>fdd<*>] <*>,13
+377,[instance <*>fd<*>be<*>-<*>fc-<*>fb<*>-<*>d<*>-fc<*>c<*>c<*>fdd<*>] Took <*>.<*> seconds to <*>,4
+378,[instance <*>fc<*>d-bb<*>-<*>df<*>-b<*>a-<*>a<*>dc<*>f] <*>,13
+379,[instance <*>fc<*>d-bb<*>-<*>df<*>-b<*>a-<*>a<*>dc<*>f] Took <*>.<*> seconds to <*>,4
+380,[instance a<*>b-<*>ad<*>-<*>ec-<*>-bec<*>b<*>ca<*>c<*>] <*>,13
+381,[instance a<*>b-<*>ad<*>-<*>ec-<*>-bec<*>b<*>ca<*>c<*>] Took <*>.<*> seconds to <*>,4
+382,[instance <*>bdd<*>a<*>-bfe<*>-<*>b<*>-<*>c<*>-<*>af<*>e<*>e<*>] <*>,13
+383,[instance <*>bdd<*>a<*>-bfe<*>-<*>b<*>-<*>c<*>-<*>af<*>e<*>e<*>] Took <*>.<*> seconds to <*>,4
+384,[instance d<*>d<*>-c<*>f-<*>e<*>c-<*>d<*>b-<*>e<*>d<*>] <*>,13
+385,[instance d<*>d<*>-c<*>f-<*>e<*>c-<*>d<*>b-<*>e<*>d<*>] Took <*>.<*> seconds to <*>,4
+386,[instance <*>f<*>aa<*>d-<*>d-<*>d<*>-<*>d<*>a-<*>f<*>f<*>] <*>,13
+387,[instance <*>f<*>aa<*>d-<*>d-<*>d<*>-<*>d<*>a-<*>f<*>f<*>] Took <*>.<*> seconds to <*>,4
+388,[instance b<*>eb<*>cb-<*>a<*>-<*>-b<*>ec-<*>ea<*>c<*>ee<*>b] <*>,13
+389,[instance b<*>eb<*>cb-<*>a<*>-<*>-b<*>ec-<*>ea<*>c<*>ee<*>b] Took <*>.<*> seconds to <*>,4
+390,[instance <*>d-<*>f<*>-<*>-bfcd-<*>baec<*>f<*>] <*>,13
+391,[instance <*>d-<*>f<*>-<*>-bfcd-<*>baec<*>f<*>] Took <*>.<*> seconds to <*>,4
+392,[instance b<*>d<*>-<*>f-<*>f-beb<*>-cf<*>fa<*>a<*>dd] <*>,13
+393,[instance b<*>d<*>-<*>f-<*>f-beb<*>-cf<*>fa<*>a<*>dd] Took <*>.<*> seconds to <*>,4
+394,[instance <*>bcdfd<*>-<*>b-<*>bb-<*>d<*>c-fb<*>e<*>e<*>] <*>,13
+395,[instance <*>bcdfd<*>-<*>b-<*>bb-<*>d<*>c-fb<*>e<*>e<*>] Took <*>.<*> seconds to <*>,4
+396,[instance <*>f<*>d<*>-<*>a-<*>d-<*>-<*>f<*>d<*>ec<*>ff] <*>,13
+397,[instance <*>f<*>d<*>-<*>a-<*>d-<*>-<*>f<*>d<*>ec<*>ff] Took <*>.<*> seconds to <*>,4
+398,[instance a<*>efb<*>-cace-<*>e<*>f-<*>-d<*>a<*>e<*>] <*>,13
+399,[instance a<*>efb<*>-cace-<*>e<*>f-<*>-d<*>a<*>e<*>] Took <*>.<*> seconds to <*>,4
+400,[instance faa<*>b-cfbd-<*>b<*>-a<*>-<*>d<*>b<*>] <*>,13
+401,[instance faa<*>b-cfbd-<*>b<*>-a<*>-<*>d<*>b<*>] Took <*>.<*> seconds to <*>,4
+402,[instance bd<*>cb<*>b-<*>a-<*>-<*>d<*>-<*>a<*>f<*>b<*>f<*>] <*>,13
+403,[instance bd<*>cb<*>b-<*>a-<*>-<*>d<*>-<*>a<*>f<*>b<*>f<*>] Took <*>.<*> seconds to <*>,4
+404,[instance <*>c<*>af<*>-<*>e<*>b-<*>f<*>-<*>d-fa<*>ae<*>a<*>eb<*>] <*>,13
+405,[instance <*>c<*>af<*>-<*>e<*>b-<*>f<*>-<*>d-fa<*>ae<*>a<*>eb<*>] Took <*>.<*> seconds to <*>,4
+406,[instance e<*>-<*>b<*>-<*>b<*>c-b<*>-a<*>cc<*>cc<*>] <*>,13
+407,[instance e<*>-<*>b<*>-<*>b<*>c-b<*>-a<*>cc<*>cc<*>] Took <*>.<*> seconds to <*>,4
+408,[instance <*>d-<*>ee<*>-<*>acd-<*>-<*>dd<*>f<*>] <*>,13
+409,[instance <*>d-<*>ee<*>-<*>acd-<*>-<*>dd<*>f<*>] Took <*>.<*> seconds to <*>,4
+410,[instance <*>d<*>f<*>d-c<*>af-<*>d<*>-a<*>a-ce<*>d<*>c<*>cbbc] <*>,13
+411,[instance <*>d<*>f<*>d-c<*>af-<*>d<*>-a<*>a-ce<*>d<*>c<*>cbbc] Took <*>.<*> seconds to <*>,4
+412,[instance a<*>bd<*>ca<*>-<*>be<*>-<*>aa-baea-<*>d<*>fd<*>ac] <*>,13
+413,[instance a<*>bd<*>ca<*>-<*>be<*>-<*>aa-baea-<*>d<*>fd<*>ac] Took <*>.<*> seconds to <*>,4
+414,[instance a<*>a<*>-b<*>-<*>ad<*>-<*>a<*>-ad<*>a<*>eb<*>] <*>,13
+415,[instance a<*>a<*>-b<*>-<*>ad<*>-<*>a<*>-ad<*>a<*>eb<*>] Took <*>.<*> seconds to <*>,4
+416,[instance <*>b<*>ace<*>-<*>-<*>c<*>-a<*>e-<*>e<*>d<*>f<*>a<*>f] <*>,8
+417,[instance <*>b<*>ace<*>-<*>-<*>c<*>-a<*>e-<*>e<*>d<*>f<*>a<*>f] Took <*>.<*> seconds to <*>,2

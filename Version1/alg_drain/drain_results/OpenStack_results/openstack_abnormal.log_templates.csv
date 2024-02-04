@@ -1,0 +1,1610 @@
+EventId,EventTemplate,Occurrences
+bd2f529c,"<*> ""GET <*>HTTP<*>status: <*> len: <*> time: <*>.<*>",8632
+d207f5b6,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] <*> <*>,2
+be38d1b3,[instance: <*>b<*>f<*>-<*>fd-<*>ec<*>-ae<*>-<*>c<*>f<*>b<*>] VM Stopped (Lifecycle Event),1
+7d8b6b51,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",4
+367e75dc,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] VM <*> (Lifecycle Event),5
+f300a87a,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] During sync_power_state the instance has a pending task (spawning). Skip.,3
+8970be39,image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (<*>checking,766
+d7d096ad,"image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (<*>in use: on this node <*> local, <*> on other nodes sharing this instance storage",766
+7bc5d64e,Active base files: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,766
+16f9f039,Creating event <*> for instance <*>,196
+e7c5c93a,"<*> ""POST <*>HTTP<*>status: <*> len: <*> time: <*>.<*>",588
+8c6923ec,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Instance <*> successfully.,2
+feace98d,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+f358b99b,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Took <*>.<*> seconds to build instance.,1
+b07a374b,"<*> ""DELETE <*>HTTP<*>status: <*> len: <*> time: <*>.<*>",196
+5e525947,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Deleting instance files /var/lib/nova/instances/<*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>_del,1
+4faee48b,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Deletion of <*>complete,1
+523faabd,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+66acd71e,HTTP exception thrown: No instances found for any event,196
+a7a4ff84,Unknown base file: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,270
+6a30fe6e,Removable base files: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,270
+f5f5f70f,Removing base or swap file: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,196
+90d90b6e,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+3bdf1252,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8d6b3d41,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+381b961c,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] <*> limit not specified, defaulting to unlimited",2
+65fde912,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] <*> <*>,3
+304a219c,Auditing locally available compute resources for node cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us,135
+f436579e,"Total usable vcpus: <*>, total allocated vcpus: <*>",135
+5935193a,Final resource view: name=cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[],135
+9d6775a4,Compute_service record updated for cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us:cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us,135
+c7291fd3,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] VM <*> (Lifecycle Event),5
+6f831669,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6ae449f7,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Instance <*> successfully.,2
+2879af3b,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+f35c1893,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Took <*>.<*> seconds to build instance.,1
+e2beb4da,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>_del,1
+e107db67,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Deletion of <*>complete,1
+c4800288,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+bd20c76b,"[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+1ec48662,"[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+232c779d,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+1a00875c,"[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+eac5e352,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] <*> <*>,3
+73082aae,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] VM <*> (Lifecycle Event),5
+c6f554d4,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,1
+a7c1a5de,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Instance <*> successfully.,2
+a7067e5b,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+700f941a,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Took <*>.<*> seconds to build instance.,1
+732653ea,Successfully synced instances from host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us'.,38
+ab2cd28e,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>_del,1
+f150c701,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Deletion of <*>complete,1
+7793ad75,[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+f04389ad,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+87301ae3,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+73bbef92,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+6b8f3964,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+88fba543,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] <*> <*>,3
+b7a69f27,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] VM <*> (Lifecycle Event),5
+c5ab587a,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,1
+cd76b38a,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Instance <*> successfully.,2
+bca5e7de,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+a7e47cbc,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Took <*>.<*> seconds to build instance.,1
+826a9fbc,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>_del,1
+d2606a8b,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Deletion of <*>complete,1
+87b12ccd,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+77427d57,"[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+6b4366f8,"[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3e062252,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+bea68ffe,"[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+5f82a438,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] <*> <*>,3
+ed27af3c,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] VM <*> (Lifecycle Event),5
+746cbe05,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,1
+d5581fd4,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Instance <*> successfully.,2
+1b15a440,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+18e40fb9,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Took <*>.<*> seconds to build instance.,1
+6f7b612c,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Deleting instance files /var/lib/nova/instances/<*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>_del,1
+34a32f27,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Deletion of <*>complete,1
+2cd0d514,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+9a51ee8a,"[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+00da7b2c,"[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+bb41b6e5,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+aa2ca7a1,"[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] <*> limit not specified, defaulting to unlimited",2
+4a885779,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] <*> <*>,3
+25026726,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] VM <*> (Lifecycle Event),5
+c155e81c,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+41c623ba,The instance sync for host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.,29
+d3fa6832,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Instance <*> successfully.,2
+15f46c54,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c569342b,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Took <*>.<*> seconds to build instance.,1
+e75fec7a,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Deleting instance files /var/lib/nova/instances/e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>_del,1
+55e9f7e6,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Deletion of <*>complete,1
+a71acc03,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+067ddc15,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+18ed912f,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+274aa504,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+6f351021,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] <*> limit not specified, defaulting to unlimited",2
+b2db36c9,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] <*> <*>,3
+1b75e2e2,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] VM <*> (Lifecycle Event),5
+44500b2e,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,2
+5c41c4a2,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Instance <*> successfully.,2
+cf6ccdfe,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+1d729a26,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Took <*>.<*> seconds to build instance.,1
+5e5ce7a7,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Deleting instance files /var/lib/nova/instances/<*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d_del,1
+a18a9060,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Deletion of <*>complete,1
+0f8a8e13,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+9fa6ec14,"[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+43a64170,"[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8d4cc6ef,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+eb516f72,"[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] <*> limit not specified, defaulting to unlimited",2
+96d44e46,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] <*> <*>,3
+c29735ed,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] VM <*> (Lifecycle Event),5
+eef238c1,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+3f285046,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Instance <*> successfully.,2
+8a1e4828,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+40ad7613,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Took <*>.<*> seconds to build instance.,1
+dc1d7d04,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Deleting instance files /var/lib/nova/instances/<*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>_del,1
+a6461fde,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Deletion of <*>complete,1
+d8549644,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+513871bc,"[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+5c5a0efc,"[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a80d2283,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+bf8fa147,"[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] <*> limit not specified, defaulting to unlimited",2
+90851e8c,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] <*> <*>,3
+dd56382f,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] VM <*> (Lifecycle Event),5
+ac457357,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+68e383cf,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Instance <*> successfully.,2
+1b787de0,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+cf39977c,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Took <*>.<*> seconds to build instance.,1
+a6374908,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Deleting instance files /var/lib/nova/instances/<*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>_del,1
+b4eeba24,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Deletion of <*>complete,1
+53471e39,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+6ec73470,"[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+130d3c79,"[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] <*> <*> <*> MB, <*> <*>.<*> MB",2
+46b97c18,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Total <*> <*> <*> used: <*>.<*> <*>,2
+04ca5ad4,"[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] <*> limit not specified, defaulting to unlimited",2
+d414df3d,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] <*> <*>,3
+582112b8,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] VM <*> (Lifecycle Event),5
+e64c7054,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] During sync_power_state the instance has a pending task (spawning). Skip.,2
+235b658a,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Instance <*> successfully.,2
+7d4ac154,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+82a5b2b3,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Took <*>.<*> seconds to build instance.,1
+2709a8fb,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Deleting instance files /var/lib/nova/instances/<*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa_del,1
+67f0abb3,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Deletion of <*>complete,1
+d56ee739,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Took <*>.<*> seconds to deallocate network for instance.,1
+13866240,Base or swap file too young to remove: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,74
+4cf68ac3,"[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+d07aafa6,"[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8517948f,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+b4414279,"[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+c94f1df3,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] <*> <*>,3
+b93af78c,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] VM <*> (Lifecycle Event),5
+9bedf15c,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+1c92b112,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Instance <*> successfully.,2
+8e13d7fd,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+05600e91,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Took <*>.<*> seconds to build instance.,1
+ab10b223,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Deleting instance files /var/lib/nova/instances/ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>_del,1
+05cfbb2c,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Deletion of <*>complete,1
+6ef11205,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+fca711cf,"[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+8fae487a,"[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+6e0f3839,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+399799fc,"[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+e43fc4b4,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] <*> <*>,3
+a5124fb6,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] VM <*> (Lifecycle Event),5
+612a3d93,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+d49370ba,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Instance <*> successfully.,2
+8d58911f,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+01daef5c,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Took <*>.<*> seconds to build instance.,1
+4fa7f578,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Deleting instance files /var/lib/nova/instances/<*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>_del,1
+5a75592e,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Deletion of <*>complete,1
+a6fc28a5,[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+250d5587,"[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+05b19703,"[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1985a011,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+b3f40d27,"[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] <*> limit not specified, defaulting to unlimited",2
+cb17ecbe,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] <*> <*>,3
+fba92c3d,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] VM <*> (Lifecycle Event),5
+baee2f61,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+78c2e13b,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Instance <*> successfully.,2
+75c08ab9,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+1a141fc3,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Took <*>.<*> seconds to build instance.,1
+263f8a51,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Deleting instance files /var/lib/nova/instances/<*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>_del,1
+6e10ab70,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Deletion of <*>complete,1
+5edf6ace,[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d88bdf05,"[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+9342c49f,"[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f72e49c3,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+20054e9b,"[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] <*> limit not specified, defaulting to unlimited",2
+30ec1dd3,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] <*> <*>,3
+8030349e,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] VM <*> (Lifecycle Event),5
+abc690ac,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6e42916a,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Instance <*> successfully.,2
+29e6ec97,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c2597e1e,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Took <*>.<*> seconds to build instance.,1
+095b1090,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Deleting instance files /var/lib/nova/instances/df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>_del,1
+a5285e19,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Deletion of <*>complete,1
+3d5c9fd9,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+e87719d4,"[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+daf0103d,"[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8527f9bb,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+1a288dd9,"[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] <*> limit not specified, defaulting to unlimited",2
+d8e2f48a,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] <*> <*>,3
+b1e4c2b5,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] VM <*> (Lifecycle Event),5
+8a1bdb4a,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+4cfba8d0,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Instance <*> successfully.,2
+8d08f333,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+7bd68efd,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Took <*>.<*> seconds to build instance.,1
+1989067c,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Deleting instance files /var/lib/nova/instances/<*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>_del,1
+4da18225,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Deletion of <*>complete,1
+8414f3f3,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+5cfb4367,"[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+3cbdfc9a,"[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c3c665de,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d3d78741,"[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] <*> limit not specified, defaulting to unlimited",2
+9505814f,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] <*> <*>,3
+a9cb40a5,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] VM <*> (Lifecycle Event),5
+3461d132,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+79404bde,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Instance <*> successfully.,2
+a5dc10ce,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+1584c178,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Took <*>.<*> seconds to build instance.,1
+05dd4b42,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Deleting instance files /var/lib/nova/instances/af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>_del,1
+12d975ed,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Deletion of <*>complete,1
+2ce42cd8,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+00838bc5,"[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+dc4303c9,"[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+4c5469b1,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d756f837,"[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] <*> limit not specified, defaulting to unlimited",2
+380861da,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] <*> <*>,3
+a956f7bc,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] VM <*> (Lifecycle Event),5
+23f8411b,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+954b4478,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Instance <*> successfully.,2
+fb5c445b,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+5a1de8bb,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Took <*>.<*> seconds to build instance.,1
+37e36bc1,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Deleting instance files /var/lib/nova/instances/f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>_del,1
+21941ee7,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Deletion of <*>complete,1
+dc3c2bd9,[instance: f<*>b<*>b<*>f-<*>cc<*>-<*>a-<*>-ab<*>b<*>f<*>f<*>a<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+fd64ac4e,"[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+29a8eaef,"[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b072ab05,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a21c597f,"[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+035c00c3,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] <*> <*>,3
+f1e426b5,"couldn't obtain the vcpu count from domain id: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+a531875e,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] VM <*> (Lifecycle Event),5
+781af475,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+7dc69f6d,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Instance <*> successfully.,2
+c1e9386c,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+eea0baf4,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Took <*>.<*> seconds to build instance.,1
+648e7fcb,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Deleting instance files /var/lib/nova/instances/b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>_del,1
+c08709ee,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Deletion of <*>complete,1
+3a11ecc0,[instance: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+b7278eb4,"[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+506fd1d4,"[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8888cf58,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a261533a,"[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+ed4b54d1,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] <*> <*>,3
+931c3ffa,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] VM <*> (Lifecycle Event),5
+121fd02e,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+b2f0c581,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Instance <*> successfully.,2
+52a9d502,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+f7d5396c,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Took <*>.<*> seconds to build instance.,1
+6d1e12ad,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Deleting instance files /var/lib/nova/instances/a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>_del,1
+b5356ab9,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Deletion of <*>complete,1
+a8f3a5c1,[instance: a<*>a<*>-<*>eba-<*>db-b<*>aa-<*>f<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d4d37e99,"[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+c8a3a5f1,"[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+30f80361,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+49f6b1fe,"[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+1cd91661,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] <*> <*>,3
+6c9ef298,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] VM <*> (Lifecycle Event),5
+dec05350,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+92fb23d6,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Instance <*> successfully.,2
+16138369,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+661583dc,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Took <*>.<*> seconds to build instance.,1
+f17a04b2,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Deleting instance files /var/lib/nova/instances/d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>_del,1
+39bd96aa,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Deletion of <*>complete,1
+51318b4e,[instance: d<*>c<*>c<*>b-f<*>f<*>-<*>a<*>c-<*>e<*>-<*>d<*>ebe<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+b5164c6e,"[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+b8d4249f,"[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+6e449281,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d8c369ff,"[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+8ed37914,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] <*> <*>,3
+b4412fcc,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] VM <*> (Lifecycle Event),5
+511a2241,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+1cbd6413,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Instance <*> successfully.,2
+fc797c60,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+97a4c3f2,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Took <*>.<*> seconds to build instance.,1
+54d15616,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>_del,1
+15d7ce81,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Deletion of <*>complete,1
+a2265791,[instance: <*>d<*>-<*>a-<*>b<*>-<*>ba-b<*>fed<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+3ddba6d9,"[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+b30c3f39,"[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c20d039b,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+0954073c,"[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] <*> limit not specified, defaulting to unlimited",2
+1d427584,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] <*> <*>,3
+86db5cad,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] VM <*> (Lifecycle Event),5
+0f8c321c,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] During sync_power_state the instance has a pending task (spawning). Skip.,3
+68239c88,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Instance <*> successfully.,2
+34f23e96,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+3f9052e0,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Took <*>.<*> seconds to build instance.,1
+77ea1914,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Deleting instance files /var/lib/nova/instances/<*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>_del,1
+d88aef55,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Deletion of <*>complete,1
+f1ec630e,[instance: <*>f<*>-<*>a-<*>ee<*>-ab<*>b-ea<*>cb<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+0b391ca0,"[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+f99837c9,"[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8e425ef3,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+5e5490f3,"[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] <*> limit not specified, defaulting to unlimited",2
+75dc8a10,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] <*> <*>,3
+a18ce9d6,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] VM <*> (Lifecycle Event),5
+fc2e56c8,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,2
+e8cd293d,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Instance <*> successfully.,2
+a7313a5f,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+d34b7c74,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Took <*>.<*> seconds to build instance.,1
+aae3554a,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Deleting instance files /var/lib/nova/instances/<*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d_del,1
+30e7892f,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Deletion of <*>complete,1
+265598c8,[instance: <*>dbe<*>f-<*>a<*>-<*>b-<*>b-<*>f<*>e<*>ccd<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+e584d740,"[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+76a9dc7a,"[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+bcff2a95,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f0804e7c,"[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] <*> limit not specified, defaulting to unlimited",2
+d1b9ce35,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] <*> <*>,3
+bc67d189,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] VM <*> (Lifecycle Event),5
+18a44e7d,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+3a4d45e2,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Instance <*> successfully.,2
+776dc9fc,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+a2d0c6de,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Took <*>.<*> seconds to build instance.,1
+d5e774a8,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Deleting instance files /var/lib/nova/instances/cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>_del,1
+552202b3,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Deletion of <*>complete,1
+0d1de760,[instance: cdd<*>e<*>a-ebc<*>-<*>d<*>-a<*>-<*>f<*>f<*>ed<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+dc2ffd5f,"[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+578bf3df,"[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+97925637,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+10991feb,"[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] <*> limit not specified, defaulting to unlimited",2
+6daa1315,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] <*> <*>,3
+bf6d6808,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] VM <*> (Lifecycle Event),5
+71502b72,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+126c5562,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Instance <*> successfully.,2
+64137f1d,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+3f6d0740,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Took <*>.<*> seconds to build instance.,1
+05de44f0,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Deleting instance files /var/lib/nova/instances/f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>_del,1
+a1f9173d,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Deletion of <*>complete,1
+66c22b7b,[instance: f<*>a<*>-<*>d-<*>f<*>-<*>c<*>-c<*>e<*>fd<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+1b1b8744,"[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+90fc8efa,"[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+35b5cd2c,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+e1adfcc2,"[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] <*> limit not specified, defaulting to unlimited",2
+965044ea,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] <*> <*>,3
+36b29e86,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] VM <*> (Lifecycle Event),5
+261acb3f,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,2
+10f64ece,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Instance <*> successfully.,2
+9e8dbe64,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+63da7eda,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Took <*>.<*> seconds to build instance.,1
+83d6272f,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Deleting instance files /var/lib/nova/instances/<*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d_del,1
+b117b19f,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Deletion of <*>complete,1
+fd8e6e27,[instance: <*>b<*>eb-<*>c<*>-<*>-<*>a<*>-<*>a<*>f<*>b<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+73f92808,"[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+9213a743,"[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+25d5a6e9,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+6dabb849,"[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+deb9f6fa,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] <*> <*>,3
+d75b0c24,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] VM <*> (Lifecycle Event),5
+7bdc12c3,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+fb86f320,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Instance <*> successfully.,2
+c3b56b4d,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+51e461ed,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Took <*>.<*> seconds to build instance.,1
+e25db646,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Deleting instance files /var/lib/nova/instances/<*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>_del,1
+60069937,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Deletion of <*>complete,1
+a05c4c10,[instance: <*>ed<*>be<*>-dd<*>b-<*>d<*>f-aaab-<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+f5d5637e,"[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+9f8e73d9,"[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] <*> <*> <*> MB, <*> <*>.<*> MB",2
+4f442be3,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Total <*> <*> <*> used: <*>.<*> <*>,2
+25b6c8da,"[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] <*> limit not specified, defaulting to unlimited",2
+67077017,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] <*> <*>,3
+c1efb14d,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] VM <*> (Lifecycle Event),5
+fa54f0e6,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] During sync_power_state the instance has a pending task (spawning). Skip.,2
+35bbefc3,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Instance <*> successfully.,2
+daed6901,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+00069a8d,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Took <*>.<*> seconds to build instance.,1
+2d43cd09,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Deleting instance files /var/lib/nova/instances/fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf_del,1
+5c062bca,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Deletion of <*>complete,1
+cb15a689,[instance: fac<*>db<*>-<*>f<*>b-<*>dd-b<*>ad-<*>f<*>fd<*>a<*>cf] Took <*>.<*> seconds to deallocate network for instance.,1
+d25847e5,"[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+b8b876d9,"[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f90622ff,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a59eb130,"[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] <*> limit not specified, defaulting to unlimited",2
+dcadf3fb,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] <*> <*>,3
+443f258d,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] VM <*> (Lifecycle Event),5
+281606e4,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+277a9a5c,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Instance <*> successfully.,2
+3bf5a974,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+aef237c7,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Took <*>.<*> seconds to build instance.,1
+0f35fb30,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>_del,1
+ce1079de,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Deletion of <*>complete,1
+2588ba22,[instance: <*>d<*>d-<*>-<*>-<*>d<*>a-aa<*>ef<*>a<*>a<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+ae271dc4,"[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+5dd7b1e3,"[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+e189803e,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+2b22501c,"[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+9c9618bb,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] <*> <*>,3
+8160a576,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] VM <*> (Lifecycle Event),5
+1cc06b27,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+f102fad9,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Instance <*> successfully.,2
+6233b07e,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+606f6e66,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Took <*>.<*> seconds to build instance.,1
+606570b4,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>_del,1
+0fff5933,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Deletion of <*>complete,1
+c7e61318,[instance: <*>d<*>f-<*>fef-<*>ed-a<*>fe-<*>fea<*>e<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d9270114,"[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+5d2bf05b,"[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] <*> <*> <*> MB, <*> <*>.<*> MB",2
+132fd1e4,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Total <*> <*> <*> used: <*>.<*> <*>,2
+4382f48b,"[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] <*> limit not specified, defaulting to unlimited",2
+d3ba913f,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] <*> <*>,3
+ae9782d4,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] VM <*> (Lifecycle Event),5
+590b8868,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] During sync_power_state the instance has a pending task (spawning). Skip.,2
+535d418b,Running instance usage audit for host cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,2
+9dddd2d8,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Instance <*> successfully.,2
+5ca0a612,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+ef2f2901,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Took <*>.<*> seconds to build instance.,1
+fb502fa7,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Deleting instance files /var/lib/nova/instances/df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd_del,1
+7e2e8f0e,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Deletion of <*>complete,1
+664a7b06,[instance: df<*>c-<*>ea<*>-<*>f<*>c-<*>d-<*>e<*>f<*>f<*>bd] Took <*>.<*> seconds to deallocate network for instance.,1
+627d9dda,"[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+7a92da0f,"[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] <*> <*> <*> MB, <*> <*>.<*> MB",2
+72512979,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Total <*> <*> <*> used: <*>.<*> <*>,2
+fe1665dd,"[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] <*> limit not specified, defaulting to unlimited",2
+89439008,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] <*> <*>,3
+28f4c732,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] VM <*> (Lifecycle Event),5
+ae71355e,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] During sync_power_state the instance has a pending task (spawning). Skip.,2
+4885c9cc,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Instance <*> successfully.,2
+9bc6163c,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b08ba0d6,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Took <*>.<*> seconds to build instance.,1
+1830014b,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Deleting instance files /var/lib/nova/instances/<*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed_del,1
+7f519170,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Deletion of <*>complete,1
+6cb5eede,[instance: <*>bbbaa<*>-d<*>d<*>-<*>-bca<*>-be<*>daceed] Took <*>.<*> seconds to deallocate network for instance.,1
+77775af5,"[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+73ac6257,"[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+33866e06,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f6fe7933,"[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] <*> limit not specified, defaulting to unlimited",2
+3c512d38,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] <*> <*>,3
+b1119d50,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] VM <*> (Lifecycle Event),5
+e6e79a43,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6e942778,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Instance <*> successfully.,2
+47b9e67e,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+d3553f94,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Took <*>.<*> seconds to build instance.,1
+9a533ef8,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Deleting instance files /var/lib/nova/instances/b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>_del,1
+c8591d93,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Deletion of <*>complete,1
+732760f1,[instance: b<*>f<*>-<*>a-<*>-bfe<*>-<*>ba<*>d<*>ecc<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+945bc98b,"[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+344796a8,"[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] <*> <*> <*> MB, <*> <*>.<*> MB",2
+eba9178b,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Total <*> <*> <*> used: <*>.<*> <*>,2
+031cb3cd,"[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] <*> limit not specified, defaulting to unlimited",2
+13aeae0b,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] <*> <*>,3
+57bef8db,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] VM <*> (Lifecycle Event),5
+f434c49b,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] During sync_power_state the instance has a pending task (spawning). Skip.,2
+84c065fe,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Instance <*> successfully.,2
+b14f26e8,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+82319796,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Took <*>.<*> seconds to build instance.,1
+851ab752,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Deleting instance files /var/lib/nova/instances/e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e_del,1
+caf34a59,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Deletion of <*>complete,1
+d1ba5134,[instance: e<*>ca<*>f-<*>e<*>e-<*>d<*>-a<*>-a<*>b<*>d<*>e] Took <*>.<*> seconds to deallocate network for instance.,1
+72bbaa61,"[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+f86aa803,"[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+52f566b9,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+49c6d7dc,"[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+b70500c1,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] <*> <*>,3
+9b2d1764,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] VM <*> (Lifecycle Event),5
+46b76a2f,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+43e81c8e,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Instance <*> successfully.,2
+b0075090,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b0546f16,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Took <*>.<*> seconds to build instance.,1
+7d455257,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>_del,1
+7d5c6987,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Deletion of <*>complete,1
+4659c761,[instance: <*>edb<*>bd-<*>dd-<*>-<*>c<*>-ba<*>d<*>f<*>e<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+c6f7ebfd,"[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+352543ea,"[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f90b5614,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Total <*> <*> <*> used: <*>.<*> <*>,2
+ae763c6a,"[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] <*> limit not specified, defaulting to unlimited",2
+78974052,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] <*> <*>,3
+0aea7d81,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] VM <*> (Lifecycle Event),5
+9ac47527,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] During sync_power_state the instance has a pending task (spawning). Skip.,2
+58188fce,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Instance <*> successfully.,2
+5668096e,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b1c7348f,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Took <*>.<*> seconds to build instance.,1
+fff609fd,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Deleting instance files /var/lib/nova/instances/d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf_del,1
+5eed33f0,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Deletion of <*>complete,1
+8670fb33,[instance: d<*>dcb<*>-d<*>df-<*>d-<*>acf-bea<*>de<*>e<*>cf] Took <*>.<*> seconds to deallocate network for instance.,1
+f3f040cd,"[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+fd031654,"[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+76dafcd0,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+acae287f,"[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] <*> limit not specified, defaulting to unlimited",2
+50bd7dcd,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] <*> <*>,3
+acaa130d,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] VM <*> (Lifecycle Event),5
+cc7390ba,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,2
+e6ca6b7e,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Instance <*> successfully.,2
+cff3edba,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+a1727817,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Took <*>.<*> seconds to build instance.,1
+5e10f8a2,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Deleting instance files /var/lib/nova/instances/<*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d_del,1
+91185d9a,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Deletion of <*>complete,1
+62f59960,[instance: <*>b<*>aac-<*>d<*>e-<*>de-aacf-<*>fb<*>f<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+143a4b06,"[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+33d82647,"[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f3d4f2a5,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+e6dff6e8,"[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+2b209db0,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] <*> <*>,3
+6b843433,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] VM <*> (Lifecycle Event),5
+f6ab76cd,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+a2b82433,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Instance <*> successfully.,2
+44342b30,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+fc7d0498,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Took <*>.<*> seconds to build instance.,1
+7b68a98b,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>_del,1
+6050d150,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Deletion of <*>complete,1
+29c8faa2,[instance: <*>d<*>a<*>-ce<*>-<*>cb<*>-be<*>-<*>d<*>e<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+c05cb158,"[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+ef261670,"[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b0c926aa,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+c525610f,"[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+3530c521,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] <*> <*>,3
+d443d506,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] VM <*> (Lifecycle Event),5
+8135b087,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+3fce0e8e,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Instance <*> successfully.,2
+f2e1befc,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+ecd413cd,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Took <*>.<*> seconds to build instance.,1
+616fab76,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Deleting instance files /var/lib/nova/instances/<*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>_del,1
+0db7bd22,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Deletion of <*>complete,1
+381c37bc,[instance: <*>aae<*>f<*>-e<*>-<*>-<*>e<*>e-<*>db<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+5e319948,"[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+9b095ad3,"[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f065ac9f,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+b0d8c5da,"[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+162785e3,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] <*> <*>,3
+9bf3af93,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] VM <*> (Lifecycle Event),5
+c9c868df,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,1
+d880e622,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Instance <*> successfully.,2
+d2768fc6,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+20e5854d,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Took <*>.<*> seconds to build instance.,1
+693a878e,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>_del,1
+51efa952,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Deletion of <*>complete,1
+d0a60648,[instance: <*>d<*>c<*>-<*>c<*>-<*>a<*>b-b<*>-<*>daa<*>d<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+52f91f83,"[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+910f7c8d,"[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+fe9de198,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+4a1a380b,"[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] <*> limit not specified, defaulting to unlimited",2
+4bd9577a,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] <*> <*>,3
+5d42df8c,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] VM <*> (Lifecycle Event),5
+b81b8d41,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+29ff97b9,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Instance <*> successfully.,2
+d5459c6d,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+216403a4,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Took <*>.<*> seconds to build instance.,1
+81d184bc,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Deleting instance files /var/lib/nova/instances/fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>_del,1
+b16582ce,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Deletion of <*>complete,1
+3f1d5e2e,[instance: fc<*>e<*>afa-e<*>f-<*>-<*>f<*>-<*>a<*>a<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+9ffe8307,"[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+ffff9a4b,"[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+72519467,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+b7dc7da8,"[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+ee27c330,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] <*> <*>,3
+f14c4eb8,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] VM <*> (Lifecycle Event),5
+8c182599,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+e5dee1b1,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Instance <*> successfully.,2
+c6b7e67b,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c98bc32e,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Took <*>.<*> seconds to build instance.,1
+18e9e744,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Deleting instance files /var/lib/nova/instances/aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>_del,1
+d7b2854b,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Deletion of <*>complete,1
+421e3757,[instance: aa<*>b<*>f<*>-<*>f-<*>f<*>-<*>d<*>-efcdbbd<*>a<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+c8cd693a,"[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+ccc56eeb,"[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] <*> <*> <*> MB, <*> <*>.<*> MB",2
+ed19a965,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Total <*> <*> <*> used: <*>.<*> <*>,2
+e800d5b5,"[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] <*> limit not specified, defaulting to unlimited",2
+5360480c,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] <*> <*>,3
+305f8f20,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] VM <*> (Lifecycle Event),5
+1c059edc,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] During sync_power_state the instance has a pending task (spawning). Skip.,3
+d4686c3f,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Instance <*> successfully.,2
+eb8e4186,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+a5ca362d,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Took <*>.<*> seconds to build instance.,1
+a0fca995,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Deleting instance files /var/lib/nova/instances/<*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd_del,1
+90b184c9,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Deletion of <*>complete,1
+ec2383c7,[instance: <*>ad<*>dba-<*>-<*>a<*>-<*>eb<*>-<*>b<*>ce<*>cd] Took <*>.<*> seconds to deallocate network for instance.,1
+06e7bdce,"[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+64da05dd,"[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+321a3696,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f2afe322,"[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+324539b1,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] <*> <*>,3
+28e7886f,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] VM <*> (Lifecycle Event),5
+9314638a,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+427ec4c3,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Instance <*> successfully.,2
+abcba3ed,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+59b87090,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Took <*>.<*> seconds to build instance.,1
+4d0ac978,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Deleting instance files /var/lib/nova/instances/f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>_del,1
+0f2ba1aa,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Deletion of <*>complete,1
+d6aa54c1,[instance: f<*>a<*>ca-<*>e-<*>a-adfd-<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d62c1f2a,"[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+0a26520f,"[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a224fddc,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+34e87090,"[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] <*> limit not specified, defaulting to unlimited",2
+5930ecf2,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] <*> <*>,3
+75ffcfbb,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] VM <*> (Lifecycle Event),5
+868eb3f0,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+a92167ff,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Instance <*> successfully.,2
+dd8b16cf,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+dd2485ab,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Took <*>.<*> seconds to build instance.,1
+94bb6303,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Deleting instance files /var/lib/nova/instances/be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>_del,1
+75879f5e,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Deletion of <*>complete,1
+0cf79fdb,[instance: be<*>c<*>e-<*>-<*>b-b<*>a-<*>e<*>e<*>e<*>ebd<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+b2c98c71,"[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+a3fecd8b,"[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] <*> <*> <*> MB, <*> <*>.<*> MB",2
+bdc566eb,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Total <*> <*> <*> used: <*>.<*> <*>,2
+e2234d0a,"[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] <*> limit not specified, defaulting to unlimited",2
+8e87f2bc,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] <*> <*>,3
+7af0c89c,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] VM <*> (Lifecycle Event),5
+3db3b043,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] During sync_power_state the instance has a pending task (spawning). Skip.,1
+6e76a3e3,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Instance <*> successfully.,2
+ec30d42e,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+3941a83a,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Took <*>.<*> seconds to build instance.,1
+79427885,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Deleting instance files /var/lib/nova/instances/<*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa_del,1
+1087abde,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Deletion of <*>complete,1
+4dfdf4fa,[instance: <*>dc<*>-<*>e<*>-<*>a<*>-<*>a<*>-<*>ad<*>f<*>efa] Took <*>.<*> seconds to deallocate network for instance.,1
+f92a0aae,"[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+ef86e7a5,"[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+817d2dd8,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+af2b9452,"[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+0322cb45,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] <*> <*>,3
+420a3d53,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] VM <*> (Lifecycle Event),5
+fe0c0fba,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+a2a31ea6,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Instance <*> successfully.,2
+94320e80,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+0a32f4a6,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Took <*>.<*> seconds to build instance.,1
+7e63c9d2,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Deleting instance files /var/lib/nova/instances/f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>_del,1
+7961202c,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Deletion of <*>complete,1
+f064a6b7,[instance: f<*>a<*>cb-e<*>-<*>fa<*>-<*>f-<*>a<*>d<*>d<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+e060d6b9,"[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+0b9af686,"[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b92967aa,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+72e4e88b,"[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] <*> limit not specified, defaulting to unlimited",2
+35d6821d,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] <*> <*>,3
+5b3ec355,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] VM <*> (Lifecycle Event),5
+e199f863,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+a766041a,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Instance <*> successfully.,2
+40ecd9c3,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+8c6f1243,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Took <*>.<*> seconds to build instance.,1
+c82491b9,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>_del,1
+6f5f933d,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Deletion of <*>complete,1
+09e71f0d,[instance: <*>d<*>b<*>-<*>b-<*>-<*>d<*>d-a<*>dfeba<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d28a40e7,"[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+67b59d55,"[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b92d668c,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+b48dd8f7,"[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+22bb3c3c,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] <*> <*>,3
+a3d1ac97,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] VM <*> (Lifecycle Event),5
+5c2494bd,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,1
+0ace7fc4,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Instance <*> successfully.,2
+8daed5bf,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+89758457,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Took <*>.<*> seconds to build instance.,1
+0744db17,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Deleting instance files /var/lib/nova/instances/<*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>_del,1
+1d32adf0,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Deletion of <*>complete,1
+480174a4,[instance: <*>a<*>b-e<*>ea-<*>-bffe-c<*>a<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+b1cc6c8c,"[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+3d59c5c1,"[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f22610ea,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d20d7cc6,"[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] <*> limit not specified, defaulting to unlimited",2
+1a9cf632,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] <*> <*>,3
+131e5a33,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] VM <*> (Lifecycle Event),5
+9a4ed154,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+39131e2a,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Instance <*> successfully.,2
+a500f900,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+56b7b6c1,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Took <*>.<*> seconds to build instance.,1
+2f7ce1c7,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Deleting instance files /var/lib/nova/instances/c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>_del,1
+3ecab92c,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Deletion of <*>complete,1
+35c16f9b,[instance: c<*>e<*>b<*>-a<*>f<*>-<*>a<*>-<*>a<*>e-<*>a<*>c<*>ab<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+6cfe7b26,"[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+97e63e3c,"[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c92697e5,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d1a33390,"[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] <*> limit not specified, defaulting to unlimited",2
+b9cfaf0c,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] <*> <*>,3
+d71e59a3,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] VM <*> (Lifecycle Event),5
+1e253e91,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+3de72ed5,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Instance <*> successfully.,2
+d0293f75,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+82029d14,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Took <*>.<*> seconds to build instance.,1
+26b06ddb,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>_del,1
+9e6224df,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Deletion of <*>complete,1
+7b1379bc,[instance: <*>d<*>-<*>-<*>e-a<*>-<*>ea<*>fd<*>ad<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+875e04ff,"[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+ba78823c,"[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+2b6b1e7c,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+efb0f60a,"[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] <*> limit not specified, defaulting to unlimited",2
+0e7e4fdd,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] <*> <*>,3
+48e5c59f,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] VM <*> (Lifecycle Event),5
+48aa9f66,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+12cd99a5,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Instance <*> successfully.,2
+500b0c48,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+5cb1caea,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Took <*>.<*> seconds to build instance.,1
+a8f43c27,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Deleting instance files /var/lib/nova/instances/bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>_del,1
+b54259b0,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Deletion of <*>complete,1
+38815ed6,[instance: bbac<*>ce-<*>a-<*>a<*>b-<*>-bc<*>b<*>d<*>fd<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d6df406a,"[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+bb9d8e3d,"[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a4bc3567,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Total <*> <*> <*> used: <*>.<*> <*>,2
+7b87b514,"[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] <*> limit not specified, defaulting to unlimited",2
+2e10d253,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] <*> <*>,3
+1cc59757,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] VM <*> (Lifecycle Event),5
+19080f87,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] During sync_power_state the instance has a pending task (spawning). Skip.,2
+8437c05d,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Instance <*> successfully.,2
+5426f0f6,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c702c36f,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Took <*>.<*> seconds to build instance.,1
+7176ac74,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Deleting instance files /var/lib/nova/instances/f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c_del,1
+93999e29,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Deletion of <*>complete,1
+72ced975,[instance: f<*>e<*>-ba<*>c-<*>aaf-a<*>-<*>fb<*>f<*>b<*>c] Took <*>.<*> seconds to deallocate network for instance.,1
+6e9c76b4,"[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+aa4ad33e,"[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] <*> <*> <*> MB, <*> <*>.<*> MB",2
+bc33e644,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Total <*> <*> <*> used: <*>.<*> <*>,2
+461a2acf,"[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] <*> limit not specified, defaulting to unlimited",2
+e3f89eab,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] <*> <*>,3
+c42c1d2b,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] VM <*> (Lifecycle Event),5
+8201cc74,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] During sync_power_state the instance has a pending task (spawning). Skip.,2
+69eb9fc6,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Instance <*> successfully.,2
+55192bec,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+1d5339fb,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Took <*>.<*> seconds to build instance.,1
+19aa25ee,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Deleting instance files /var/lib/nova/instances/<*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df_del,1
+7e93a2e6,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Deletion of <*>complete,1
+54ab1f2a,[instance: <*>b<*>fb<*>-c<*>eb-<*>f<*>d-<*>f<*>a-a<*>b<*>e<*>a<*>df] Took <*>.<*> seconds to deallocate network for instance.,1
+dccbe890,"[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+f241db53,"[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3e78ad02,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Total <*> <*> <*> used: <*>.<*> <*>,2
+09c7fbd9,"[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] <*> limit not specified, defaulting to unlimited",2
+4b74213c,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] <*> <*>,3
+97a874b7,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] VM <*> (Lifecycle Event),5
+88fa5df1,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] During sync_power_state the instance has a pending task (spawning). Skip.,2
+5a944901,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Instance <*> successfully.,2
+4a0e32f1,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+1498b995,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Took <*>.<*> seconds to build instance.,1
+ec8fc58e,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Deleting instance files /var/lib/nova/instances/edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea_del,1
+01fbe8fa,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Deletion of <*>complete,1
+bb313c7e,[instance: edf<*>-d<*>c-<*>-a<*>d<*>-<*>d<*>ed<*>aea] Took <*>.<*> seconds to deallocate network for instance.,1
+f1f49426,"[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+a4fe4a88,"[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+23f87421,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+8a727afa,"[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] <*> limit not specified, defaulting to unlimited",2
+264540d8,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] <*> <*>,3
+c01c3c25,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] VM <*> (Lifecycle Event),5
+f0146286,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+0e8d58db,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Instance <*> successfully.,2
+7a15a089,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b9164485,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Took <*>.<*> seconds to build instance.,1
+4c1aabb8,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Deleting instance files /var/lib/nova/instances/<*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>_del,1
+39ba0b71,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Deletion of <*>complete,1
+aaf14358,[instance: <*>e<*>fb<*>-fadc-<*>d<*>-<*>d<*>-ac<*>e<*>fda<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+cc624997,"[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+23cabb49,"[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c77b84e3,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Total <*> <*> <*> used: <*>.<*> <*>,2
+b4f7e47a,"[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] <*> limit not specified, defaulting to unlimited",2
+2f204afd,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] <*> <*>,3
+9fb433c9,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] VM <*> (Lifecycle Event),5
+bce09ced,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] During sync_power_state the instance has a pending task (spawning). Skip.,2
+8c169967,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Instance <*> successfully.,2
+84230577,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+a732f39b,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Took <*>.<*> seconds to build instance.,1
+6f0d421e,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Deleting instance files /var/lib/nova/instances/<*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff_del,1
+13b9a76b,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Deletion of <*>complete,1
+38e6e668,[instance: <*>f<*>-<*>d<*>-<*>-<*>dd<*>-a<*>ff] Took <*>.<*> seconds to deallocate network for instance.,1
+0b74b704,"[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+70b76688,"[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] <*> <*> <*> MB, <*> <*>.<*> MB",2
+4e983b89,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Total <*> <*> <*> used: <*>.<*> <*>,2
+62e4a26c,"[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] <*> limit not specified, defaulting to unlimited",2
+0a74d842,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] <*> <*>,3
+c710bb1e,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] VM <*> (Lifecycle Event),5
+a1868504,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] During sync_power_state the instance has a pending task (spawning). Skip.,2
+058ba6ff,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Instance <*> successfully.,2
+5df77fa3,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+23de4d73,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Took <*>.<*> seconds to build instance.,1
+188ae7b2,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Deleting instance files /var/lib/nova/instances/<*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c_del,1
+2bebfaf5,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Deletion of <*>complete,1
+0dea2d11,[instance: <*>a<*>-<*>dfa-<*>a<*>-bcc<*>-<*>e<*>c] Took <*>.<*> seconds to deallocate network for instance.,1
+8f1c3bcf,"[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+a64186d3,"[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+2720bb9d,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f5431a7a,"[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] <*> limit not specified, defaulting to unlimited",2
+79da04bd,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] <*> <*>,3
+dc88e566,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] VM <*> (Lifecycle Event),5
+95fb1da1,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+8f9414a6,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Instance <*> successfully.,2
+1cfbbcbe,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+fd170601,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Took <*>.<*> seconds to build instance.,1
+5b434771,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Deleting instance files /var/lib/nova/instances/<*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>_del,1
+db0ac50a,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Deletion of <*>complete,1
+bcf42ea3,[instance: <*>a<*>c<*>c-<*>b<*>-<*>-a<*>a<*>-d<*>c<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+4db586e0,"[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+c7aec330,"[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+790148bf,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+6327faf4,"[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] <*> limit not specified, defaulting to unlimited",2
+cb90bd52,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] <*> <*>,3
+5c2b9c75,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] VM <*> (Lifecycle Event),5
+4b1e395a,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] During sync_power_state the instance has a pending task (spawning). Skip.,3
+04e01deb,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Instance <*> successfully.,2
+b5f019af,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+9ae6529c,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Took <*>.<*> seconds to build instance.,1
+3593567b,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Deleting instance files /var/lib/nova/instances/<*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>_del,1
+f7eed139,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Deletion of <*>complete,1
+b65072f4,[instance: <*>fd<*>-<*>be<*>-<*>-<*>a<*>-<*>b<*>a<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+c0d23082,"[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+bb535b76,"[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8bb46349,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Total <*> <*> <*> used: <*>.<*> <*>,2
+46d0042f,"[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] <*> limit not specified, defaulting to unlimited",2
+ff3b2d7d,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] <*> <*>,3
+d981b353,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] VM <*> (Lifecycle Event),5
+27220868,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] During sync_power_state the instance has a pending task (spawning). Skip.,2
+79496944,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Instance <*> successfully.,2
+28cc3652,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+5504a62e,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Took <*>.<*> seconds to build instance.,1
+31155c23,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Deleting instance files /var/lib/nova/instances/<*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f_del,1
+4bf5a0fa,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Deletion of <*>complete,1
+324955e7,[instance: <*>fd<*>cab<*>-<*>e-<*>bc<*>-<*>bde-da<*>f] Took <*>.<*> seconds to deallocate network for instance.,1
+9e973720,"[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+32ea7349,"[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b97c6ec7,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+42c6d318,"[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] <*> limit not specified, defaulting to unlimited",2
+0a126dc5,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] <*> <*>,3
+83a572a0,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] VM <*> (Lifecycle Event),5
+b3823ad3,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6c1c48f1,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Instance <*> successfully.,2
+605985b1,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+8dd5579b,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Took <*>.<*> seconds to build instance.,1
+78fdb8c1,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Deleting instance files /var/lib/nova/instances/<*>da-f<*>c-<*>aea-<*>dab-e<*>b_del,1
+279743c1,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Deletion of <*>complete,1
+99d581c5,[instance: <*>da-f<*>c-<*>aea-<*>dab-e<*>b] Took <*>.<*> seconds to deallocate network for instance.,1
+c069bcb7,"[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+9c6b7168,"[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+7bad49f5,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+93259b49,"[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] <*> limit not specified, defaulting to unlimited",2
+14bde561,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] <*> <*>,3
+cfb07639,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] VM <*> (Lifecycle Event),5
+40c83c4a,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] During sync_power_state the instance has a pending task (spawning). Skip.,1
+cab6372d,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Instance <*> successfully.,2
+e838883f,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+2dae3a95,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Took <*>.<*> seconds to build instance.,1
+13b79f0e,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Deleting instance files /var/lib/nova/instances/<*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>_del,1
+1d5270c5,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Deletion of <*>complete,1
+715281ff,[instance: <*>a<*>-<*>df-<*>-<*>b<*>c-<*>fef<*>c<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+ac71b932,"[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+0205d00f,"[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+30bdc137,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+70376a8b,"[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] <*> limit not specified, defaulting to unlimited",2
+fa8651bc,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] <*> <*>,3
+d819f18e,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] VM <*> (Lifecycle Event),5
+fe70a50b,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6a2db5bf,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Instance <*> successfully.,2
+bc7b8b6b,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+4eb9975b,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Took <*>.<*> seconds to build instance.,1
+28c895c0,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Deleting instance files /var/lib/nova/instances/a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>_del,1
+a40225df,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Deletion of <*>complete,1
+b8a60f69,[instance: a<*>-f<*>ec-<*>d<*>-<*>d-<*>a<*>df<*>e<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+fa74af49,"[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+83ab22a4,"[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+36a57d9d,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+e8ded601,"[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] <*> limit not specified, defaulting to unlimited",2
+51a82200,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] <*> <*>,3
+7a48f51f,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] VM <*> (Lifecycle Event),5
+477e0e4b,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6b794537,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Instance <*> successfully.,2
+705d1af9,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+79482a61,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Took <*>.<*> seconds to build instance.,1
+2131e5ab,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Deleting instance files /var/lib/nova/instances/e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>_del,1
+054cc736,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Deletion of <*>complete,1
+9ffa77c4,[instance: e<*>bd<*>-ebd<*>-<*>b<*>-b<*>da-abf<*>efd<*>e<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+bad5fd85,"[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+0f9114ea,"[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1ab19423,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+bf6cc4e4,"[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] <*> limit not specified, defaulting to unlimited",2
+1b21aef2,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] <*> <*>,3
+a240806e,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] VM <*> (Lifecycle Event),5
+9a175409,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+1a3cdc7b,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Instance <*> successfully.,2
+10ab3508,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c3646b99,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Took <*>.<*> seconds to build instance.,1
+96d8ea45,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Deleting instance files /var/lib/nova/instances/e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>_del,1
+da3ddeb2,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Deletion of <*>complete,1
+7f067cc6,[instance: e<*>f<*>e<*>-<*>c-<*>d<*>-b<*>f<*>-c<*>c<*>e<*>eff<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+3aabe4d6,"[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+88f2e6e9,"[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c7c0d987,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+41011c01,"[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] <*> limit not specified, defaulting to unlimited",2
+392a91a2,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] <*> <*>,3
+1ffd1240,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] VM <*> (Lifecycle Event),5
+5577581a,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+078b098e,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Instance <*> successfully.,2
+e4dd8036,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+64058cec,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Took <*>.<*> seconds to build instance.,1
+3e238801,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Deleting instance files /var/lib/nova/instances/<*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>_del,1
+3fcb09e7,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Deletion of <*>complete,1
+e24cc403,[instance: <*>db<*>c<*>-<*>-<*>e<*>-<*>e<*>d-<*>c<*>d<*>ef<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+4cc77712,"[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+f7257605,"[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+86cf4123,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+e52ea3ad,"[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] <*> limit not specified, defaulting to unlimited",2
+47a7cb71,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] <*> <*>,3
+f5a4438e,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] VM <*> (Lifecycle Event),5
+d3034388,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] During sync_power_state the instance has a pending task (spawning). Skip.,2
+8e335e3f,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Instance <*> successfully.,2
+b6cc17b3,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+6a43e438,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Took <*>.<*> seconds to build instance.,1
+32e3b107,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Deleting instance files /var/lib/nova/instances/<*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b_del,1
+5f088744,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Deletion of <*>complete,1
+b3112fc7,[instance: <*>d<*>-<*>e<*>-<*>c<*>e-<*>a-f<*>a<*>c<*>e<*>b] Took <*>.<*> seconds to deallocate network for instance.,1
+30119c3f,"[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+fcdf07de,"[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3d3d2a5a,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Total <*> <*> <*> used: <*>.<*> <*>,2
+5c652ca5,"[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] <*> limit not specified, defaulting to unlimited",2
+bc441b66,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] <*> <*>,3
+cc41b531,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] VM <*> (Lifecycle Event),5
+5f9b1b32,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] During sync_power_state the instance has a pending task (spawning). Skip.,2
+19d7f34d,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Instance <*> successfully.,2
+ca84101c,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+8d909cfe,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Took <*>.<*> seconds to build instance.,1
+e7ddfd74,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Deleting instance files /var/lib/nova/instances/<*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd_del,1
+122e64fc,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Deletion of <*>complete,1
+5d15622c,[instance: <*>ee<*>ad<*>d-ff<*>a-<*>e<*>-a<*>-<*>db<*>efcec<*>cd] Took <*>.<*> seconds to deallocate network for instance.,1
+5fdcc579,"[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+8bd5a8a7,"[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] <*> <*> <*> MB, <*> <*>.<*> MB",2
+27dd22ca,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Total <*> <*> <*> used: <*>.<*> <*>,2
+61d25550,"[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] <*> limit not specified, defaulting to unlimited",2
+90eba9c8,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] <*> <*>,3
+5caa7237,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] VM <*> (Lifecycle Event),5
+644128a2,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] During sync_power_state the instance has a pending task (spawning). Skip.,3
+37f9dd1d,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Instance <*> successfully.,2
+daf4e0e8,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+fe696e5e,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Took <*>.<*> seconds to build instance.,1
+9f5988ff,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Deleting instance files /var/lib/nova/instances/<*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be_del,1
+977b6b1e,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Deletion of <*>complete,1
+72c60436,[instance: <*>ba<*>df<*>-<*>-<*>-a<*>c<*>-b<*>f<*>be] Took <*>.<*> seconds to deallocate network for instance.,1
+990a00d1,"[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+b66f2377,"[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+5e4f52d4,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+08d9308c,"[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] <*> limit not specified, defaulting to unlimited",2
+37d5562b,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] <*> <*>,3
+fa3179ee,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] VM <*> (Lifecycle Event),5
+a1fa1c22,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] During sync_power_state the instance has a pending task (spawning). Skip.,2
+01eeac2c,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Instance <*> successfully.,2
+82727966,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c97d5742,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Took <*>.<*> seconds to build instance.,1
+fe848ef4,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Deleting instance files /var/lib/nova/instances/b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b_del,1
+a49311b8,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Deletion of <*>complete,1
+f8a1e887,[instance: b<*>-<*>-<*>-<*>-<*>e<*>b<*>f<*>e<*>b] Took <*>.<*> seconds to deallocate network for instance.,1
+b40fac6a,"[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+0d309ec2,"[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c658cfaa,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+b4245ba6,"[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] <*> limit not specified, defaulting to unlimited",2
+fef0ee1c,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] <*> <*>,3
+ed570319,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] VM <*> (Lifecycle Event),5
+77a5b3b3,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,2
+5c5a6e98,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Instance <*> successfully.,2
+7420f339,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+d7826139,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Took <*>.<*> seconds to build instance.,1
+d3ea2c49,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Deleting instance files /var/lib/nova/instances/<*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d_del,1
+f40bb421,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Deletion of <*>complete,1
+f946f108,[instance: <*>cc<*>a-c<*>d-<*>-be<*>-<*>a<*>d<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+c2b67957,"[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+12cce45e,"[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+ff6a8210,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d375bcec,"[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] <*> limit not specified, defaulting to unlimited",2
+4bce06df,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] <*> <*>,3
+d924b00a,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] VM <*> (Lifecycle Event),5
+9023b3d2,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+6fb7a909,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Instance <*> successfully.,2
+39b2576f,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c8d4f90d,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Took <*>.<*> seconds to build instance.,1
+b078cc2b,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Deleting instance files /var/lib/nova/instances/<*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>_del,1
+e8733d52,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Deletion of <*>complete,1
+9a28b66a,[instance: <*>f<*>b<*>-<*>d<*>-<*>ca-bca<*>-<*>dd<*>e<*>de<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+69902b5c,"[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+640d9999,"[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a1b22005,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Total <*> <*> <*> used: <*>.<*> <*>,2
+92c76627,"[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] <*> limit not specified, defaulting to unlimited",2
+5edd7cff,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] <*> <*>,3
+3a0f025d,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] VM <*> (Lifecycle Event),5
+cb73199a,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] During sync_power_state the instance has a pending task (spawning). Skip.,2
+ea282daf,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Instance <*> successfully.,2
+7867d71f,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+ff951bc1,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Took <*>.<*> seconds to build instance.,1
+d94e8f19,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Deleting instance files /var/lib/nova/instances/<*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe_del,1
+eea17cc4,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Deletion of <*>complete,1
+ecacc26d,[instance: <*>a<*>abc-b<*>b<*>-<*>c<*>d-<*>d<*>-<*>ffe<*>fe] Took <*>.<*> seconds to deallocate network for instance.,1
+19feae62,"[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+853d2b4d,"[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f942e51b,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+dd7d9954,"[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] <*> limit not specified, defaulting to unlimited",2
+03a80387,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] <*> <*>,3
+b7aace6d,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] VM <*> (Lifecycle Event),5
+b6d3eeca,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+96f8e7cf,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Instance <*> successfully.,2
+77be7aea,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+5ee0c4bf,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Took <*>.<*> seconds to build instance.,1
+83cd0b0e,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Deleting instance files /var/lib/nova/instances/d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>_del,1
+e56e5107,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Deletion of <*>complete,1
+9cc97a5a,[instance: d<*>a<*>a<*>-<*>c<*>a-<*>cc-b<*>d<*>-d<*>be<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+aa6bacf3,"[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+8e859f2e,"[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+81972f1b,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+27cb1892,"[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] <*> limit not specified, defaulting to unlimited",2
+260789f1,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] <*> <*>,3
+5f486586,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] VM <*> (Lifecycle Event),5
+23496b68,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+c7eb78d7,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Instance <*> successfully.,2
+9b0d0901,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+89c01a34,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Took <*>.<*> seconds to build instance.,1
+6bc526fd,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>_del,1
+7a4b317c,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Deletion of <*>complete,1
+a81873f6,[instance: <*>b<*>ca<*>-a<*>b<*>-<*>c-bb<*>e-c<*>eb<*>b<*>a<*>b<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+a87773b3,"[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+4f9410e5,"[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+83ed6e78,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+dd62c642,"[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] <*> limit not specified, defaulting to unlimited",2
+2be11db9,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] <*> <*>,3
+8e6a0d38,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] VM <*> (Lifecycle Event),5
+b7790018,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] During sync_power_state the instance has a pending task (spawning). Skip.,2
+b89921ef,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Instance <*> successfully.,2
+80462548,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+e20bcfb6,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Took <*>.<*> seconds to build instance.,1
+5caf28c3,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Deleting instance files /var/lib/nova/instances/<*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a_del,1
+e783c5a9,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Deletion of <*>complete,1
+ef3f2395,[instance: <*>db<*>-<*>f<*>-<*>f<*>-<*>d<*>-b<*>a<*>be<*>a] Took <*>.<*> seconds to deallocate network for instance.,1
+d511b1cc,"[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+247ff0b4,"[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3fd8ceb0,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f48daa62,"[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] <*> limit not specified, defaulting to unlimited",2
+1394e744,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] <*> <*>,3
+fedf0876,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] VM <*> (Lifecycle Event),5
+8eb83d89,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+509bee3e,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Instance <*> successfully.,2
+e53e5af5,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+bdc7a431,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Took <*>.<*> seconds to build instance.,1
+ca00f75e,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Deleting instance files /var/lib/nova/instances/a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>_del,1
+d21f30af,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Deletion of <*>complete,1
+cf2d2234,[instance: a<*>c<*>e<*>-d<*>-<*>-a<*>-<*>e<*>c<*>aa<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d0ee310a,"[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+b69fd1f2,"[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b2859a26,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Total <*> <*> <*> used: <*>.<*> <*>,2
+0aeeb4d5,"[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] <*> limit not specified, defaulting to unlimited",2
+5c5f2187,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] <*> <*>,3
+f0f5868b,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] VM <*> (Lifecycle Event),5
+b692acd0,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] During sync_power_state the instance has a pending task (spawning). Skip.,2
+a17bd45b,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Instance <*> successfully.,2
+03d74d9f,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b3ae641a,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Took <*>.<*> seconds to build instance.,1
+e77711f7,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Deleting instance files /var/lib/nova/instances/e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e_del,1
+83ec391e,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Deletion of <*>complete,1
+c1b60c41,[instance: e<*>a<*>c<*>fd-<*>e<*>-<*>dc<*>-<*>a<*>-cec<*>ffdf<*>e] Took <*>.<*> seconds to deallocate network for instance.,1
+12950b88,"[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+3c271ba4,"[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1298d85e,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+81001b9b,"[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] <*> limit not specified, defaulting to unlimited",2
+4204c773,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] <*> <*>,3
+a6e89fc2,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] VM <*> (Lifecycle Event),5
+a50e820b,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] During sync_power_state the instance has a pending task (spawning). Skip.,1
+b35afec0,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Instance <*> successfully.,2
+14c021e2,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+0811549a,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Took <*>.<*> seconds to build instance.,1
+6736dcfc,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Deleting instance files /var/lib/nova/instances/f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a_del,1
+a77dfe11,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Deletion of <*>complete,1
+e8a15aa4,[instance: f<*>bb<*>-<*>a<*>-<*>d-<*>b<*>c-<*>caec<*>c<*>a] Took <*>.<*> seconds to deallocate network for instance.,1
+58baffac,"[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+377ff727,"[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d8ac0f44,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Total <*> <*> <*> used: <*>.<*> <*>,2
+65e43284,"[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] <*> limit not specified, defaulting to unlimited",2
+02d88184,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] <*> <*>,3
+8e16d04b,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] VM <*> (Lifecycle Event),5
+9fb9460d,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] During sync_power_state the instance has a pending task (spawning). Skip.,2
+dd53f147,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Instance <*> successfully.,2
+75842b7f,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b01f5826,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Took <*>.<*> seconds to build instance.,1
+cb5784f3,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Deleting instance files /var/lib/nova/instances/edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe_del,1
+cd7a4a51,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Deletion of <*>complete,1
+6a448831,[instance: edbdf<*>f-f<*>-<*>a<*>-<*>f-<*>a<*>cfe<*>ffe] Took <*>.<*> seconds to deallocate network for instance.,1
+f8b43aec,"[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+cda577f4,"[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+6c3faaf0,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+fdb50aa8,"[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] <*> limit not specified, defaulting to unlimited",2
+39ea380d,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] <*> <*>,3
+96eed12b,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] VM <*> (Lifecycle Event),5
+61c39b89,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+0af95a94,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Instance <*> successfully.,2
+a3844f05,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+584b0387,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Took <*>.<*> seconds to build instance.,1
+e530ded0,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Deleting instance files /var/lib/nova/instances/<*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>_del,1
+52293e13,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Deletion of <*>complete,1
+431fbaf2,[instance: <*>f<*>-a<*>-<*>fe<*>-<*>eb-<*>f<*>d<*>e<*>fc<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+d25873ec,"[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+6ae9145c,"[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d942ac6a,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Total <*> <*> <*> used: <*>.<*> <*>,2
+e2b3ca6d,"[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] <*> limit not specified, defaulting to unlimited",2
+fff4e772,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] <*> <*>,3
+8f537c16,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] VM <*> (Lifecycle Event),5
+deaa44ca,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] During sync_power_state the instance has a pending task (spawning). Skip.,2
+926cf38b,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Instance <*> successfully.,2
+4527fc80,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+e4aaeb63,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Took <*>.<*> seconds to build instance.,1
+0b892910,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e_del,1
+8bfe275c,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Deletion of <*>complete,1
+9b5cec89,[instance: <*>-<*>-<*>-<*>db-<*>ee<*>f<*>f<*>e] Took <*>.<*> seconds to deallocate network for instance.,1
+b20b1993,"[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+b9d15576,"[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+4b659d08,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+990e671d,"[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] <*> limit not specified, defaulting to unlimited",2
+5a43e5dc,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] <*> <*>,3
+60ac2ed7,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] VM <*> (Lifecycle Event),5
+df0aaafe,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+1b275e38,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Instance <*> successfully.,2
+910e7679,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+054d7ec5,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Took <*>.<*> seconds to build instance.,1
+6b45094b,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Deleting instance files /var/lib/nova/instances/a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>_del,1
+76165c59,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Deletion of <*>complete,1
+32d5a396,[instance: a<*>bc<*>-<*>f-<*>be-b<*>-<*>bb<*>e<*>abf<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+e2f337f0,"[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+301011e9,"[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a4a4906b,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Total <*> <*> <*> used: <*>.<*> <*>,2
+ba1a9978,"[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] <*> limit not specified, defaulting to unlimited",2
+eefaa25e,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] <*> <*>,3
+2cbfc20a,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] VM <*> (Lifecycle Event),5
+556caa6e,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] During sync_power_state the instance has a pending task (spawning). Skip.,2
+bfa59205,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Instance <*> successfully.,2
+0945e45b,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+ac946f48,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Took <*>.<*> seconds to build instance.,1
+17801573,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Deleting instance files /var/lib/nova/instances/b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee_del,1
+d003b9e2,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Deletion of <*>complete,1
+6dc4f4d1,[instance: b<*>d<*>a-<*>f<*>-<*>c<*>-<*>d<*>-<*>b<*>e<*>ee] Took <*>.<*> seconds to deallocate network for instance.,1
+492ea11d,"[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+c6d8cf64,"[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+87e83373,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a4e2c7e7,"[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+524daec3,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] <*> <*>,3
+b9401889,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] VM <*> (Lifecycle Event),5
+1b810590,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+f8bc2bcf,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Instance <*> successfully.,2
+baa691e4,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+52c5d79a,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Took <*>.<*> seconds to build instance.,1
+64ddc058,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Deleting instance files /var/lib/nova/instances/db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>_del,1
+013caaac,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Deletion of <*>complete,1
+f1d1bdaa,[instance: db<*>eac<*>-<*>e<*>-<*>b-<*>d<*>-b<*>d<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+01981301,"[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+1666f799,"[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c0aa3699,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+514b1ab7,"[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] <*> limit not specified, defaulting to unlimited",2
+fb8c88a4,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] <*> <*>,3
+d0fb125d,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] VM <*> (Lifecycle Event),5
+b6cf21ab,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] During sync_power_state the instance has a pending task (spawning). Skip.,2
+51441d0d,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Instance <*> successfully.,2
+1f082281,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+92cab047,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Took <*>.<*> seconds to build instance.,1
+6a18251d,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Deleting instance files /var/lib/nova/instances/f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a_del,1
+bce2a640,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Deletion of <*>complete,1
+f053ce5d,[instance: f<*>f<*>-<*>e<*>-<*>ce<*>-b<*>f<*>-<*>fcd<*>f<*>c<*>a] Took <*>.<*> seconds to deallocate network for instance.,1
+4653fffe,"[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+0af9e6de,"[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] <*> <*> <*> MB, <*> <*>.<*> MB",2
+98ad7ab6,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Total <*> <*> <*> used: <*>.<*> <*>,2
+f08e11d5,"[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] <*> limit not specified, defaulting to unlimited",2
+f9449362,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] <*> <*>,3
+1f3bf016,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] VM <*> (Lifecycle Event),5
+b948f8b5,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] During sync_power_state the instance has a pending task (spawning). Skip.,2
+7521a406,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Instance <*> successfully.,2
+436d5f2e,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+4d2e2bef,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Took <*>.<*> seconds to build instance.,1
+c62170cb,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Deleting instance files /var/lib/nova/instances/<*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f_del,1
+72609270,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Deletion of <*>complete,1
+5fd19a25,[instance: <*>a<*>-<*>da-<*>a<*>f-<*>dfa-b<*>aaf<*>ecc<*>f] Took <*>.<*> seconds to deallocate network for instance.,1
+6b69a2a4,"[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+7dce3edc,"[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a4a83a9a,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+ab7e7311,"[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+f526eddd,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] <*> <*>,3
+938fcbda,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] VM <*> (Lifecycle Event),5
+317ca9b5,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+e6de934f,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Instance <*> successfully.,2
+4005431f,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+24d9ad70,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Took <*>.<*> seconds to build instance.,1
+17301fb4,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Deleting instance files /var/lib/nova/instances/<*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>_del,1
+d2cdb8c6,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Deletion of <*>complete,1
+30e0ab4a,[instance: <*>b<*>da<*>b<*>-<*>-<*>-<*>fa<*>-de<*>b<*>c<*>b<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+5c7eaa18,"[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+766619d3,"[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+e7601220,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+9a68363e,"[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] <*> limit not specified, defaulting to unlimited",2
+e70273ff,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] <*> <*>,3
+b2d17075,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] VM <*> (Lifecycle Event),5
+e4252463,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] During sync_power_state the instance has a pending task (spawning). Skip.,2
+a7063813,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Instance <*> successfully.,2
+3bd7c635,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+04b395ed,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Took <*>.<*> seconds to build instance.,1
+2561d0a3,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Deleting instance files /var/lib/nova/instances/a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a_del,1
+3225d8a5,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Deletion of <*>complete,1
+a2e30977,[instance: a<*>ed<*>-<*>c<*>-<*>a-<*>b<*>-<*>e<*>c<*>a] Took <*>.<*> seconds to deallocate network for instance.,1
+c72decf5,"[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+eaf9ecda,"[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+9f761536,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+9eeacf9a,"[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] <*> limit not specified, defaulting to unlimited",2
+ce0efcf6,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] <*> <*>,3
+639b79a2,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] VM <*> (Lifecycle Event),5
+d8b6dbd3,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] During sync_power_state the instance has a pending task (spawning). Skip.,2
+aecb47c6,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Instance <*> successfully.,2
+a7284fa7,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+b3ccb6b7,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Took <*>.<*> seconds to build instance.,1
+451a77b1,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Deleting instance files /var/lib/nova/instances/<*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b_del,1
+96bb48ad,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Deletion of <*>complete,1
+fd8f99af,[instance: <*>a<*>e-a<*>b<*>-<*>-a<*>-<*>b] Took <*>.<*> seconds to deallocate network for instance.,1
+f48d6c99,"[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+4e3e43ff,"[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+375c9e77,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+1d6d0c14,"[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] <*> limit not specified, defaulting to unlimited",2
+1a83f436,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] <*> <*>,3
+34a12317,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] VM <*> (Lifecycle Event),5
+32306d64,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,1
+2a93a547,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Instance <*> successfully.,2
+f1cb9846,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+7e58cf3b,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Took <*>.<*> seconds to build instance.,1
+b60bc8e6,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Deleting instance files /var/lib/nova/instances/<*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d_del,1
+274911f5,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Deletion of <*>complete,1
+3433727a,[instance: <*>b<*>-c<*>a-<*>fb-b<*>df-<*>bde<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+03c3787f,"[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+90fb3713,"[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f9c7364b,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Total <*> <*> <*> used: <*>.<*> <*>,2
+52ae3f22,"[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] <*> limit not specified, defaulting to unlimited",2
+4fedd1ce,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] <*> <*>,3
+3eed3b5b,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] VM <*> (Lifecycle Event),5
+0b03c8a8,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] During sync_power_state the instance has a pending task (spawning). Skip.,2
+4e86306c,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Instance <*> successfully.,2
+302d1a6f,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+8f85359f,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Took <*>.<*> seconds to build instance.,1
+efc78d72,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Deleting instance files /var/lib/nova/instances/<*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e_del,1
+704264b8,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Deletion of <*>complete,1
+1ee6dd2f,[instance: <*>-<*>b<*>a-<*>a<*>-<*>d-<*>f<*>a<*>b<*>e] Took <*>.<*> seconds to deallocate network for instance.,1
+cd1b2cd9,"[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+85b845bc,"[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d3f7c7ba,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a94dc0a4,"[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] <*> limit not specified, defaulting to unlimited",2
+f885b836,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] <*> <*>,3
+fec13d01,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] VM <*> (Lifecycle Event),5
+b5b26863,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] During sync_power_state the instance has a pending task (spawning). Skip.,3
+448139a6,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Instance <*> successfully.,2
+411efc19,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+ffcc8f16,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Took <*>.<*> seconds to build instance.,1
+cede33cb,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Deleting instance files /var/lib/nova/instances/daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>_del,1
+a592006f,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Deletion of <*>complete,1
+34527190,[instance: daf<*>c<*>-<*>-<*>d-a<*>f<*>-fc<*>d<*>a<*>f<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+a02b9d59,"[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+199179e2,"[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+cbfbdbaa,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+49e1e504,"[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] <*> limit not specified, defaulting to unlimited",2
+ee5be0c6,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] <*> <*>,3
+e5f2a91a,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] VM <*> (Lifecycle Event),5
+ae06bea0,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+438deafe,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Instance <*> successfully.,2
+be4f2f16,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+1963b9ac,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Took <*>.<*> seconds to build instance.,1
+6e2b9c5f,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Deleting instance files /var/lib/nova/instances/<*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>_del,1
+27965345,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Deletion of <*>complete,1
+1ec65253,[instance: <*>ca<*>d<*>-<*>-<*>c<*>c-a<*>-<*>fa<*>cf<*>fc<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+2f82a78f,"[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+ee0e7204,"[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b895db25,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+120d6b2e,"[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] <*> limit not specified, defaulting to unlimited",2
+e107c04c,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] <*> <*>,3
+6edd5965,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] VM <*> (Lifecycle Event),5
+a38c584d,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] During sync_power_state the instance has a pending task (spawning). Skip.,2
+f5e068c9,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Instance <*> successfully.,2
+aefb558b,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+f8a6073b,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Took <*>.<*> seconds to build instance.,1
+d1653d3b,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Deleting instance files /var/lib/nova/instances/daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>_del,1
+7a54d787,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Deletion of <*>complete,1
+8bd39e2d,[instance: daaa<*>-<*>ba-<*>-<*>e<*>b-<*>c<*>d<*>] Took <*>.<*> seconds to deallocate network for instance.,1
+ddb0bf11,"[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+69416d2c,"[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+9f5454bb,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+ed323674,"[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] <*> limit not specified, defaulting to unlimited",2
+a96e38be,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] <*> <*>,3
+65fd941c,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] VM <*> (Lifecycle Event),5
+75fa3e6c,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] During sync_power_state the instance has a pending task (spawning). Skip.,1
+09fbb7fe,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Instance <*> successfully.,2
+b50d6607,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+f790c399,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Took <*>.<*> seconds to build instance.,1
+12028310,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Deleting instance files /var/lib/nova/instances/<*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d_del,1
+9380bba6,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Deletion of <*>complete,1
+8fe161ae,[instance: <*>aab<*>c<*>-<*>-<*>a<*>-b<*>-<*>d<*>a<*>d] Took <*>.<*> seconds to deallocate network for instance.,1
+c253ff71,"[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+94a0807b,"[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a26d21b0,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+4fc3186c,"[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] <*> limit not specified, defaulting to unlimited",2
+ce566721,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] <*> <*>,3
+22eef384,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] VM <*> (Lifecycle Event),5
+977a1737,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] During sync_power_state the instance has a pending task (spawning). Skip.,2
+51ef6e0e,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Instance <*> successfully.,2
+3eb3249e,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+2bb1883f,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Took <*>.<*> seconds to build instance.,1
+90607a64,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Deleting instance files /var/lib/nova/instances/f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a_del,1
+fd54eb29,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Deletion of <*>complete,1
+b9bd3d0a,[instance: f<*>f<*>-<*>-<*>a-<*>d<*>-<*>f<*>a] Took <*>.<*> seconds to deallocate network for instance.,1
+3f0a2daa,"[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+9258e1cd,"[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] <*> <*> <*> MB, <*> <*>.<*> MB",2
+0bf14d46,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Total <*> <*> <*> used: <*>.<*> <*>,2
+f77dc98d,"[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] <*> limit not specified, defaulting to unlimited",2
+e224336f,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] <*> <*>,3
+046cebb5,[instance: <*> VM <*> (Lifecycle Event),494
+d3a9dc30,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] During sync_power_state the instance has a pending task (spawning). Skip.,2
+9113e151,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Instance <*> successfully.,2
+582e7f06,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Took <*>.<*> seconds to <*> the instance on the hypervisor.,2
+c5d77228,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Took <*>.<*> seconds to build instance.,1
+b81be278,[instance: <*> Deleting instance files <*>,98
+d692f703,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Deletion of <*>complete,1
+5f865acd,[instance: <*>fa<*>-<*>aa<*>-<*>d-a<*>-<*>da<*>a<*>c] Took <*>.<*> seconds to deallocate network for instance.,1
+f354366e,"[instance: <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+a092877b,"[instance: <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+35b2ace5,[instance: <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+e5220d58,"[instance: <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] <*> limit not specified, defaulting to unlimited",2
+927b16c9,[instance: <*>ebf<*>-a<*>-<*>-ba<*>-<*>cef<*>ec<*>] <*> <*>,3
+a44f2c0c,[instance: <*> During sync_power_state the instance has a pending task (spawning). Skip.,193
+edb74594,[instance: <*> Instance <*> successfully.,195
+f1dd54b5,[instance: <*> Took <*>.<*> seconds to <*> the instance on the hypervisor.,195
+3c620fac,[instance: <*> Took <*>.<*> seconds to build instance.,98
+1a1ec7ca,[instance: <*> Deletion of <*>complete,97
+db9ce054,[instance: <*> Took <*>.<*> seconds to deallocate network for instance.,97
+60c42758,"[instance: <*> Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",97
+4eb5aa8b,"[instance: <*>c<*>c<*>fd<*>-bef<*>-<*>fb<*>-<*>f-<*>be<*>ba<*>d<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+963f427e,[instance: <*>c<*>c<*>fd<*>-bef<*>-<*>fb<*>-<*>f-<*>be<*>ba<*>d<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+445b5750,"[instance: <*> <*> limit not specified, defaulting to unlimited",194
+fe73b600,[instance: <*>c<*>c<*>fd<*>-bef<*>-<*>fb<*>-<*>f-<*>be<*>ba<*>d<*>b<*>] <*> <*>,3
+287344cc,"[instance: <*>a<*>d<*>ed-<*>a-<*>c<*>-abc<*>-b<*>c<*>bfe<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+0aafb770,[instance: <*>a<*>d<*>ed-<*>a-<*>c<*>-abc<*>-b<*>c<*>bfe<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+1741111b,[instance: <*>a<*>d<*>ed-<*>a-<*>c<*>-abc<*>-b<*>c<*>bfe<*>] <*> <*>,3
+aaab1d80,"[instance: df<*>feb<*>-<*>e<*>-<*>c<*>-af<*>e-<*>bb<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+6dc81856,[instance: df<*>feb<*>-<*>e<*>-<*>c<*>-af<*>e-<*>bb<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+163ba2ba,[instance: df<*>feb<*>-<*>e<*>-<*>c<*>-af<*>e-<*>bb<*>e<*>] <*> <*>,3
+d36d063d,"[instance: <*>b<*>-<*>fe<*>-<*>d<*>-<*>a-<*>b<*>b<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+ed60373a,[instance: <*>b<*>-<*>fe<*>-<*>d<*>-<*>a-<*>b<*>b<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a69795a8,[instance: <*>b<*>-<*>fe<*>-<*>d<*>-<*>a-<*>b<*>b<*>f<*>] <*> <*>,3
+860f0dd9,"[instance: cf<*>c-f<*>cd-<*>ce-b<*>-<*>b<*>bcd] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f78357a5,[instance: cf<*>c-f<*>cd-<*>ce-b<*>-<*>b<*>bcd] Total <*> <*> <*> used: <*>.<*> <*>,2
+6bc2e038,[instance: cf<*>c-f<*>cd-<*>ce-b<*>-<*>b<*>bcd] <*> <*>,3
+1250c800,"[instance: <*>d<*>f<*>d-<*>fe<*>-<*>cfa-<*>fde-<*>b<*>e<*>cd<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+52d610a8,[instance: <*>d<*>f<*>d-<*>fe<*>-<*>cfa-<*>fde-<*>b<*>e<*>cd<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+2eae2846,[instance: <*>d<*>f<*>d-<*>fe<*>-<*>cfa-<*>fde-<*>b<*>e<*>cd<*>c<*>] <*> <*>,3
+7e29bfc5,"[instance: <*>ab<*>fcd<*>-<*>a<*>-<*>f<*>-b<*>-e<*>e<*>b<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+abb72224,[instance: <*>ab<*>fcd<*>-<*>a<*>-<*>f<*>-b<*>-e<*>e<*>b<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+5f28adca,[instance: <*>ab<*>fcd<*>-<*>a<*>-<*>f<*>-b<*>-e<*>e<*>b<*>a<*>] <*> <*>,3
+f15a6553,"[instance: <*>ac<*>aa<*>-b<*>-<*>a-a<*>f<*>-<*>ce<*>bd<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8c18ff5d,[instance: <*>ac<*>aa<*>-b<*>-<*>a-a<*>f<*>-<*>ce<*>bd<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+2137d4af,[instance: <*>ac<*>aa<*>-b<*>-<*>a-a<*>f<*>-<*>ce<*>bd<*>] <*> <*>,3
+edd6a0d9,"[instance: <*>f<*>ff<*>-a<*>fb-<*>e<*>-b<*>cf-c<*>a<*>efc<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f3e21b90,[instance: <*>f<*>ff<*>-a<*>fb-<*>e<*>-b<*>cf-c<*>a<*>efc<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+233f1fdc,[instance: <*>f<*>ff<*>-a<*>fb-<*>e<*>-b<*>cf-c<*>a<*>efc<*>f<*>] <*> <*>,3
+7490b56f,"[instance: b<*>a<*>-<*>a<*>f-<*>df-<*>f<*>-<*>c<*>ec<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b97393cd,[instance: b<*>a<*>-<*>a<*>f-<*>df-<*>f<*>-<*>c<*>ec<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+5dbf5858,[instance: b<*>a<*>-<*>a<*>f-<*>df-<*>f<*>-<*>c<*>ec<*>a<*>] <*> <*>,3
+9393d231,"[instance: e<*>d-b<*>c<*>-<*>edd-b<*>f-d<*>c<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+17466aed,[instance: e<*>d-b<*>c<*>-<*>edd-b<*>f-d<*>c<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f0323888,[instance: e<*>d-b<*>c<*>-<*>edd-b<*>f-d<*>c<*>b<*>] <*> <*>,3
+9a67b31d,"[instance: <*>e<*>a<*>c<*>-f<*>-<*>e-<*>e<*>c-<*>d<*>afdf<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+5598fcdc,[instance: <*>e<*>a<*>c<*>-f<*>-<*>e-<*>e<*>c-<*>d<*>afdf<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+bd3bf3ec,[instance: <*>e<*>a<*>c<*>-f<*>-<*>e-<*>e<*>c-<*>d<*>afdf<*>] <*> <*>,3
+c93e7b13,"[instance: <*>a<*>ed<*>-bc<*>-<*>ef<*>-<*>b<*>-cba<*>bafa<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d27b8363,[instance: <*>a<*>ed<*>-bc<*>-<*>ef<*>-<*>b<*>-cba<*>bafa<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f91de535,[instance: <*>a<*>ed<*>-bc<*>-<*>ef<*>-<*>b<*>-cba<*>bafa<*>] <*> <*>,3
+26da53e6,"[instance: <*>eb<*>e<*>-<*>a-<*>-b<*>-d<*>ab<*>cf<*>c] <*> <*> <*> MB, <*> <*>.<*> MB",2
+332208a7,[instance: <*>eb<*>e<*>-<*>a-<*>-b<*>-d<*>ab<*>cf<*>c] Total <*> <*> <*> used: <*>.<*> <*>,2
+a79be04c,[instance: <*>eb<*>e<*>-<*>a-<*>-b<*>-d<*>ab<*>cf<*>c] <*> <*>,3
+24b8e366,"[instance: <*>f<*>cf<*>-b<*>-<*>-<*>a<*>-<*>b<*>b<*>fb<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+6d746acf,[instance: <*>f<*>cf<*>-b<*>-<*>-<*>a<*>-<*>b<*>b<*>fb<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+b133352b,[instance: <*>f<*>cf<*>-b<*>-<*>-<*>a<*>-<*>b<*>b<*>fb<*>] <*> <*>,3
+d6af79b9,"[instance: <*>a<*>d<*>c<*>-be<*>d-<*>a<*>-b<*>b-<*>be<*>ec<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+24787d05,[instance: <*>a<*>d<*>c<*>-be<*>d-<*>a<*>-b<*>b-<*>be<*>ec<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+55bdea99,[instance: <*>a<*>d<*>c<*>-be<*>d-<*>a<*>-b<*>b-<*>be<*>ec<*>] <*> <*>,3
+18086b71,"[instance: <*>c<*>eea-<*>-<*>c<*>-bc<*>-bebd<*>c<*>d<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+0e90bb16,[instance: <*>c<*>eea-<*>-<*>c<*>-bc<*>-bebd<*>c<*>d<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+cf49c160,[instance: <*>c<*>eea-<*>-<*>c<*>-bc<*>-bebd<*>c<*>d<*>f<*>] <*> <*>,3
+2c0284ae,"[instance: <*>f<*>d<*>-dfa<*>-<*>-<*>a<*>-<*>cf<*>db<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+38cfefbd,[instance: <*>f<*>d<*>-dfa<*>-<*>-<*>a<*>-<*>cf<*>db<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+caf1c9fd,[instance: <*>f<*>d<*>-dfa<*>-<*>-<*>a<*>-<*>cf<*>db<*>] <*> <*>,3
+8743d0af,"[instance: <*>fd<*>ce<*>-ad<*>d-<*>f-<*>e<*>-ca<*>aa<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+02b86160,[instance: <*>fd<*>ce<*>-ad<*>d-<*>f-<*>e<*>-ca<*>aa<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a62393e5,[instance: <*>fd<*>ce<*>-ad<*>d-<*>f-<*>e<*>-ca<*>aa<*>] <*> <*>,3
+e02da804,"[instance: f<*>cd<*>-e<*>a-<*>fa<*>-<*>-<*>e<*>c<*>dbb] <*> <*> <*> MB, <*> <*>.<*> MB",2
+ca04bf06,[instance: f<*>cd<*>-e<*>a-<*>fa<*>-<*>-<*>e<*>c<*>dbb] Total <*> <*> <*> used: <*>.<*> <*>,2
+9687a88d,[instance: f<*>cd<*>-e<*>a-<*>fa<*>-<*>-<*>e<*>c<*>dbb] <*> <*>,3
+cd43331f,"[instance: d<*>bdaf<*>-<*>a<*>-<*>dee-<*>-<*>a<*>fc<*>c<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b77a64bc,[instance: d<*>bdaf<*>-<*>a<*>-<*>dee-<*>-<*>a<*>fc<*>c<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+c63cd599,[instance: d<*>bdaf<*>-<*>a<*>-<*>dee-<*>-<*>a<*>fc<*>c<*>d] <*> <*>,3
+c3fbc215,"[instance: f<*>c<*>e<*>-<*>c-<*>-<*>-c<*>d<*>d<*>a<*>d<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+35194957,[instance: f<*>c<*>e<*>-<*>c-<*>-<*>-c<*>d<*>d<*>a<*>d<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+a49e6e96,[instance: f<*>c<*>e<*>-<*>c-<*>-<*>-c<*>d<*>d<*>a<*>d<*>b] <*> <*>,3
+f1a4b84d,"[instance: <*>da<*>c<*>-c<*>a-<*>-<*>ad<*>-<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+dd5f2fd8,[instance: <*>da<*>c<*>-c<*>a-<*>-<*>ad<*>-<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+17318dfe,[instance: <*>da<*>c<*>-c<*>a-<*>-<*>ad<*>-<*>f<*>] <*> <*>,3
+72293584,"[instance: <*>c<*>f-fd<*>-<*>f<*>-<*>c<*>-<*>bf<*>b<*>d<*>e<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b37e55ca,[instance: <*>c<*>f-fd<*>-<*>f<*>-<*>c<*>-<*>bf<*>b<*>d<*>e<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+b5ab58b5,[instance: <*>c<*>f-fd<*>-<*>f<*>-<*>c<*>-<*>bf<*>b<*>d<*>e<*>b] <*> <*>,3
+b118bdb3,"[instance: <*>a<*>a-<*>-<*>-b<*>d<*>-b<*>e<*>a<*>cc<*>ab] <*> <*> <*> MB, <*> <*>.<*> MB",2
+20f16aa8,[instance: <*>a<*>a-<*>-<*>-b<*>d<*>-b<*>e<*>a<*>cc<*>ab] Total <*> <*> <*> used: <*>.<*> <*>,2
+5e8b4ff7,[instance: <*>a<*>a-<*>-<*>-b<*>d<*>-b<*>e<*>a<*>cc<*>ab] <*> <*>,3
+6b672dd8,"[instance: <*>f<*>fbbd<*>-db<*>-<*>c<*>-<*>-<*>edfffd<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d954d864,[instance: <*>f<*>fbbd<*>-db<*>-<*>c<*>-<*>-<*>edfffd<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+c9f234b8,[instance: <*>f<*>fbbd<*>-db<*>-<*>c<*>-<*>-<*>edfffd<*>c<*>] <*> <*>,3
+87dde7d9,"[instance: <*>bcbad<*>-<*>f<*>-<*>cfe-a<*>cb-c<*>a<*>c<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3e053624,[instance: <*>bcbad<*>-<*>f<*>-<*>cfe-a<*>cb-c<*>a<*>c<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d8838332,[instance: <*>bcbad<*>-<*>f<*>-<*>cfe-a<*>cb-c<*>a<*>c<*>d<*>] <*> <*>,3
+8e4fc3f0,"[instance: d<*>c<*>b<*>-<*>-<*>d<*>-ace<*>-<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+5992148a,[instance: d<*>c<*>b<*>-<*>-<*>d<*>-ace<*>-<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+07160526,[instance: d<*>c<*>b<*>-<*>-<*>d<*>-ace<*>-<*>a<*>] <*> <*>,3
+6c240e2e,"[instance: <*>fd<*>c-<*>edc-<*>-baae-ba<*>d<*>a<*>acfc] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3ffbd4d9,[instance: <*>fd<*>c-<*>edc-<*>-baae-ba<*>d<*>a<*>acfc] Total <*> <*> <*> used: <*>.<*> <*>,2
+1950ae5f,[instance: <*>fd<*>c-<*>edc-<*>-baae-ba<*>d<*>a<*>acfc] <*> <*>,3
+7ac099c3,"[instance: ae<*>dff-c<*>ad-<*>d<*>-ac<*>-bbcd<*>ccca<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+9d7dde82,[instance: ae<*>dff-c<*>ad-<*>d<*>-ac<*>-bbcd<*>ccca<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+6e48f117,[instance: ae<*>dff-c<*>ad-<*>d<*>-ac<*>-bbcd<*>ccca<*>] <*> <*>,3
+9644bdcd,"[instance: <*>b<*>c<*>-<*>bd-<*>fd-bf<*>c-<*>c<*>e<*>db<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+4804e446,[instance: <*>b<*>c<*>-<*>bd-<*>fd-bf<*>c-<*>c<*>e<*>db<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+42fadf04,[instance: <*>b<*>c<*>-<*>bd-<*>fd-bf<*>c-<*>c<*>e<*>db<*>] <*> <*>,3
+653217df,"[instance: <*>abb<*>b-c<*>e<*>-<*>e<*>-a<*>-<*>ccd<*>bbb<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1c60332b,[instance: <*>abb<*>b-c<*>e<*>-<*>e<*>-a<*>-<*>ccd<*>bbb<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+68312e16,[instance: <*>abb<*>b-c<*>e<*>-<*>e<*>-a<*>-<*>ccd<*>bbb<*>] <*> <*>,3
+ce5aca16,"[instance: <*>fe<*>d-bd<*>-<*>f<*>c-af<*>-<*>e<*>b<*>fa<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+127d0b94,[instance: <*>fe<*>d-bd<*>-<*>f<*>c-af<*>-<*>e<*>b<*>fa<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+e0695dec,[instance: <*>fe<*>d-bd<*>-<*>f<*>c-af<*>-<*>e<*>b<*>fa<*>] <*> <*>,3
+6178f655,"[instance: f<*>bf<*>-<*>-<*>bc-<*>d<*>-<*>cb<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+cd43bdde,[instance: f<*>bf<*>-<*>-<*>bc-<*>d<*>-<*>cb<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+21829cad,[instance: f<*>bf<*>-<*>-<*>bc-<*>d<*>-<*>cb<*>e<*>] <*> <*>,3
+1d8fad3d,"[instance: <*>ce<*>-aa<*>a-<*>-b<*>f-e<*>c<*>d<*>a<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+5c9292f0,[instance: <*>ce<*>-aa<*>a-<*>-b<*>f-e<*>c<*>d<*>a<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+34933505,[instance: <*>ce<*>-aa<*>a-<*>-b<*>f-e<*>c<*>d<*>a<*>f<*>] <*> <*>,3
+94c68569,"[instance: <*>a<*>a<*>d<*>-<*>-<*>ae-be<*>-<*>b<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+504a27b5,[instance: <*>a<*>a<*>d<*>-<*>-<*>ae-be<*>-<*>b<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+77ab5753,[instance: <*>a<*>a<*>d<*>-<*>-<*>ae-be<*>-<*>b<*>f<*>] <*> <*>,3
+52e36319,"[instance: <*>e<*>e<*>d-<*>e<*>f-<*>-<*>e<*>-<*>baf<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+e0c15bc1,[instance: <*>e<*>e<*>d-<*>e<*>f-<*>-<*>e<*>-<*>baf<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+4b629227,[instance: <*>e<*>e<*>d-<*>e<*>f-<*>-<*>e<*>-<*>baf<*>d] <*> <*>,3
+dc3562b4,"[instance: <*>d<*>b<*>d<*>-<*>b<*>b-<*>f<*>-a<*>-f<*>a<*>c<*>db] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a1a41e4f,[instance: <*>d<*>b<*>d<*>-<*>b<*>b-<*>f<*>-a<*>-f<*>a<*>c<*>db] Total <*> <*> <*> used: <*>.<*> <*>,2
+7f5e15ec,[instance: <*>d<*>b<*>d<*>-<*>b<*>b-<*>f<*>-a<*>-f<*>a<*>c<*>db] <*> <*>,3
+a4932ce2,"[instance: <*>f<*>f-b<*>b-<*>ad<*>-<*>-<*>d<*>f<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d33ad652,[instance: <*>f<*>f-b<*>b-<*>ad<*>-<*>-<*>d<*>f<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+027a0451,[instance: <*>f<*>f-b<*>b-<*>ad<*>-<*>-<*>d<*>f<*>a<*>] <*> <*>,3
+3f0f5815,"[instance: <*>e<*>c-<*>-<*>-<*>e<*>a-f<*>bcaff<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8b3c18bf,[instance: <*>e<*>c-<*>-<*>-<*>e<*>a-f<*>bcaff<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+0ee9f782,[instance: <*>e<*>c-<*>-<*>-<*>e<*>a-f<*>bcaff<*>d<*>] <*> <*>,3
+06af330b,"[instance: bdce<*>-<*>-<*>b-af<*>-<*>c<*>dc] <*> <*> <*> MB, <*> <*>.<*> MB",2
+eaf99e5e,[instance: bdce<*>-<*>-<*>b-af<*>-<*>c<*>dc] Total <*> <*> <*> used: <*>.<*> <*>,2
+76ff793c,[instance: bdce<*>-<*>-<*>b-af<*>-<*>c<*>dc] <*> <*>,3
+2e2dd1ff,"[instance: c<*>c<*>da<*>-<*>b<*>f-<*>b<*>c-<*>-a<*>d<*>a<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+42592e00,[instance: c<*>c<*>da<*>-<*>b<*>f-<*>b<*>c-<*>-a<*>d<*>a<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+d82817e8,[instance: c<*>c<*>da<*>-<*>b<*>f-<*>b<*>c-<*>-a<*>d<*>a<*>a] <*> <*>,3
+c4f41c5a,"[instance: <*>e<*>e<*>-<*>d<*>a-<*>-b<*>-<*>f<*>e<*>fecb] <*> <*> <*> MB, <*> <*>.<*> MB",2
+020a7461,[instance: <*>e<*>e<*>-<*>d<*>a-<*>-b<*>-<*>f<*>e<*>fecb] Total <*> <*> <*> used: <*>.<*> <*>,2
+1b266f9c,[instance: <*>e<*>e<*>-<*>d<*>a-<*>-b<*>-<*>f<*>e<*>fecb] <*> <*>,3
+91689312,"[instance: aa<*>a<*>c-<*>ec<*>-<*>ff-a<*>-ed<*>c<*>f<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+321a803e,[instance: aa<*>a<*>c-<*>ec<*>-<*>ff-a<*>-ed<*>c<*>f<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+6de8ec71,[instance: aa<*>a<*>c-<*>ec<*>-<*>ff-a<*>-ed<*>c<*>f<*>b<*>] <*> <*>,3
+81e40ef4,"[instance: <*>cf<*>-eb<*>-<*>c<*>-a<*>-<*>ccad<*>ff<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+4a3051a3,[instance: <*>cf<*>-eb<*>-<*>c<*>-a<*>-<*>ccad<*>ff<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+30780f9a,[instance: <*>cf<*>-eb<*>-<*>c<*>-a<*>-<*>ccad<*>ff<*>d] <*> <*>,3
+a5580000,"[instance: f<*>fc<*>ae<*>-<*>f<*>-<*>f<*>-<*>fda-<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+cc639d0b,[instance: f<*>fc<*>ae<*>-<*>f<*>-<*>f<*>-<*>fda-<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+804deef2,[instance: f<*>fc<*>ae<*>-<*>f<*>-<*>f<*>-<*>fda-<*>a<*>] <*> <*>,3
+80412711,"[instance: b<*>ceef<*>b-<*>ee<*>-<*>d-<*>fe-fc<*>a<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+bdceee02,[instance: b<*>ceef<*>b-<*>ee<*>-<*>d-<*>fe-fc<*>a<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+58c295c0,[instance: b<*>ceef<*>b-<*>ee<*>-<*>d-<*>fe-fc<*>a<*>e<*>] <*> <*>,3
+e709bb46,"[instance: f<*>d<*>e<*>-<*>de-<*>b-<*>-<*>d<*>d<*>d] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d4896df0,[instance: f<*>d<*>e<*>-<*>de-<*>b-<*>-<*>d<*>d<*>d] Total <*> <*> <*> used: <*>.<*> <*>,2
+6e646f04,[instance: f<*>d<*>e<*>-<*>de-<*>b-<*>-<*>d<*>d<*>d] <*> <*>,3
+ad91d7ca,"[instance: <*>ebb<*>a<*>-<*>bf-<*>-a<*>e<*>-<*>cedc<*>fb] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a3c40b6b,[instance: <*>ebb<*>a<*>-<*>bf-<*>-a<*>e<*>-<*>cedc<*>fb] Total <*> <*> <*> used: <*>.<*> <*>,2
+45e10d05,[instance: <*>ebb<*>a<*>-<*>bf-<*>-a<*>e<*>-<*>cedc<*>fb] <*> <*>,3
+56e3a89f,"[instance: <*>cf<*>-a<*>a-<*>e-b<*>d-<*>be<*>bfe<*>eb] <*> <*> <*> MB, <*> <*>.<*> MB",2
+8e4364b8,[instance: <*>cf<*>-a<*>a-<*>e-b<*>d-<*>be<*>bfe<*>eb] Total <*> <*> <*> used: <*>.<*> <*>,2
+d57137c6,[instance: <*>cf<*>-a<*>a-<*>e-b<*>d-<*>be<*>bfe<*>eb] <*> <*>,3
+90ff7cca,"[instance: ce<*>a<*>a-f<*>-<*>f-bb<*>f-dfd<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+84f1ea1d,[instance: ce<*>a<*>a-f<*>-<*>f-bb<*>f-dfd<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f7b76dc9,[instance: ce<*>a<*>a-f<*>-<*>f-bb<*>f-dfd<*>c<*>] <*> <*>,3
+b01c9009,"[instance: <*>b<*>-ee<*>d-<*>df-<*>-d<*>a<*>b<*>f<*>eb] <*> <*> <*> MB, <*> <*>.<*> MB",2
+651310f7,[instance: <*>b<*>-ee<*>d-<*>df-<*>-d<*>a<*>b<*>f<*>eb] Total <*> <*> <*> used: <*>.<*> <*>,2
+bab6439f,[instance: <*>b<*>-ee<*>d-<*>df-<*>-d<*>a<*>b<*>f<*>eb] <*> <*>,3
+d0cd054d,"[instance: <*>cbe-eed<*>-<*>e<*>-<*>f<*>-<*>a<*>a<*>a<*>e] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f98348ca,[instance: <*>cbe-eed<*>-<*>e<*>-<*>f<*>-<*>a<*>a<*>a<*>e] Total <*> <*> <*> used: <*>.<*> <*>,2
+1081f330,[instance: <*>cbe-eed<*>-<*>e<*>-<*>f<*>-<*>a<*>a<*>a<*>e] <*> <*>,3
+b64b3bf5,"[instance: <*>b<*>d-ec<*>-<*>a<*>f-a<*>-<*>dcb<*>af<*>de<*>e] <*> <*> <*> MB, <*> <*>.<*> MB",2
+bdd220dc,[instance: <*>b<*>d-ec<*>-<*>a<*>f-a<*>-<*>dcb<*>af<*>de<*>e] Total <*> <*> <*> used: <*>.<*> <*>,2
+c99f5f75,[instance: <*>b<*>d-ec<*>-<*>a<*>f-a<*>-<*>dcb<*>af<*>de<*>e] <*> <*>,3
+a2490083,"[instance: <*>edf<*>a<*>-<*>c<*>-<*>-<*>-<*>fce<*>b<*>df<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+b40b1e5f,[instance: <*>edf<*>a<*>-<*>c<*>-<*>-<*>-<*>fce<*>b<*>df<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+7c84ca18,[instance: <*>edf<*>a<*>-<*>c<*>-<*>-<*>-<*>fce<*>b<*>df<*>] <*> <*>,3
+585fc253,"[instance: <*>fbe<*>-<*>f-<*>-a<*>-<*>b<*>a<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1a31e972,[instance: <*>fbe<*>-<*>f-<*>-a<*>-<*>b<*>a<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+fd1e9875,[instance: <*>fbe<*>-<*>f-<*>-a<*>-<*>b<*>a<*>f<*>] <*> <*>,3
+b579b33f,"[instance: <*>d<*>-e<*>-<*>a-ae<*>-<*>c<*>d<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c20f00ec,[instance: <*>d<*>-e<*>-<*>a-ae<*>-<*>c<*>d<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+5fc49ce0,[instance: <*>d<*>-e<*>-<*>a-ae<*>-<*>c<*>d<*>b<*>] <*> <*>,3
+ff982a3c,"[instance: <*>-<*>-<*>-<*>-ffb<*>ffd<*>d<*>ac] <*> <*> <*> MB, <*> <*>.<*> MB",2
+c1a34b60,[instance: <*>-<*>-<*>-<*>-ffb<*>ffd<*>d<*>ac] Total <*> <*> <*> used: <*>.<*> <*>,2
+b28e1531,[instance: <*>-<*>-<*>-<*>-ffb<*>ffd<*>d<*>ac] <*> <*>,3
+36b035aa,"[instance: b<*>e<*>f<*>e-<*>ca-<*>ef-<*>-<*>a<*>e<*>afb] <*> <*> <*> MB, <*> <*>.<*> MB",2
+e1d43bec,[instance: b<*>e<*>f<*>e-<*>ca-<*>ef-<*>-<*>a<*>e<*>afb] Total <*> <*> <*> used: <*>.<*> <*>,2
+b2e6e5a6,[instance: b<*>e<*>f<*>e-<*>ca-<*>ef-<*>-<*>a<*>e<*>afb] <*> <*>,3
+1f9ece00,"[instance: <*>e<*>-e<*>a<*>-<*>ee<*>-b<*>d<*>-<*>e<*>f<*>b<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+89a56683,[instance: <*>e<*>-e<*>a<*>-<*>ee<*>-b<*>d<*>-<*>e<*>f<*>b<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+470386da,[instance: <*>e<*>-e<*>a<*>-<*>ee<*>-b<*>d<*>-<*>e<*>f<*>b<*>f<*>] <*> <*>,3
+ecbf04b9,"[instance: f<*>fc<*>d<*>-<*>e<*>-<*>d<*>-aac<*>-<*>b<*>d<*>db<*>ea] <*> <*> <*> MB, <*> <*>.<*> MB",2
+2eb43ed6,[instance: f<*>fc<*>d<*>-<*>e<*>-<*>d<*>-aac<*>-<*>b<*>d<*>db<*>ea] Total <*> <*> <*> used: <*>.<*> <*>,2
+91932607,[instance: f<*>fc<*>d<*>-<*>e<*>-<*>d<*>-aac<*>-<*>b<*>d<*>db<*>ea] <*> <*>,3
+b02f2d57,"[instance: <*>ec<*>-<*>-<*>-ab<*>d-<*>b<*>a<*>aa] <*> <*> <*> MB, <*> <*>.<*> MB",2
+10cea24a,[instance: <*>ec<*>-<*>-<*>-ab<*>d-<*>b<*>a<*>aa] Total <*> <*> <*> used: <*>.<*> <*>,2
+7fbed42a,[instance: <*>ec<*>-<*>-<*>-ab<*>d-<*>b<*>a<*>aa] <*> <*>,3
+289ae489,"[instance: be<*>c-fcdd-<*>b<*>-a<*>d<*>-<*>a<*>dc<*>cc] <*> <*> <*> MB, <*> <*>.<*> MB",2
+91d6122d,[instance: be<*>c-fcdd-<*>b<*>-a<*>d<*>-<*>a<*>dc<*>cc] Total <*> <*> <*> used: <*>.<*> <*>,2
+e9c36767,[instance: be<*>c-fcdd-<*>b<*>-a<*>d<*>-<*>a<*>dc<*>cc] <*> <*>,3
+3cf2714f,"[instance: <*>c-a<*>d-<*>-<*>-<*>ec<*>ee<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+9b5cd27a,[instance: <*>c-a<*>d-<*>-<*>-<*>ec<*>ee<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+cdfe6d2c,[instance: <*>c-a<*>d-<*>-<*>-<*>ec<*>ee<*>] <*> <*>,3
+fd5e0a3a,"[instance: d<*>b<*>a<*>d-<*>-<*>-<*>d<*>-<*>f<*>bf<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+176666b3,[instance: d<*>b<*>a<*>d-<*>-<*>-<*>d<*>-<*>f<*>bf<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+bbd1c673,[instance: d<*>b<*>a<*>d-<*>-<*>-<*>d<*>-<*>f<*>bf<*>] <*> <*>,3
+8cfef1c8,"[instance: <*>fe<*>b-<*>a<*>f-<*>-bd<*>d-<*>d<*>dea<*>bce] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3519a13f,[instance: <*>fe<*>b-<*>a<*>f-<*>-bd<*>d-<*>d<*>dea<*>bce] Total <*> <*> <*> used: <*>.<*> <*>,2
+f6913aae,[instance: <*>fe<*>b-<*>a<*>f-<*>-bd<*>d-<*>d<*>dea<*>bce] <*> <*>,3
+8113be62,"[instance: a<*>b<*>ae-af<*>-<*>c<*>-<*>-<*>bc<*>bf<*>f] <*> <*> <*> MB, <*> <*>.<*> MB",2
+e3204402,[instance: a<*>b<*>ae-af<*>-<*>c<*>-<*>-<*>bc<*>bf<*>f] Total <*> <*> <*> used: <*>.<*> <*>,2
+28c0e2ae,[instance: a<*>b<*>ae-af<*>-<*>c<*>-<*>-<*>bc<*>bf<*>f] <*> <*>,3
+dd992484,"[instance: <*>d<*>-<*>-<*>ce-<*>c<*>c-<*>d<*>bf<*>e<*>af] <*> <*> <*> MB, <*> <*>.<*> MB",2
+3cb4c963,[instance: <*>d<*>-<*>-<*>ce-<*>c<*>c-<*>d<*>bf<*>e<*>af] Total <*> <*> <*> used: <*>.<*> <*>,2
+2dc92994,[instance: <*>d<*>-<*>-<*>ce-<*>c<*>c-<*>d<*>bf<*>e<*>af] <*> <*>,3
+1d36b233,"[instance: <*>b<*>dddf-<*>d<*>-<*>c<*>-<*>a<*>-<*>b<*>fd<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+643e9b39,[instance: <*>b<*>dddf-<*>d<*>-<*>c<*>-<*>a<*>-<*>b<*>fd<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+2370a0e0,[instance: <*>b<*>dddf-<*>d<*>-<*>c<*>-<*>a<*>-<*>b<*>fd<*>] <*> <*>,3
+ca187126,"[instance: f<*>d<*>ad<*>-<*>d-<*>-a<*>-<*>ca<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+905fd2d0,[instance: f<*>d<*>ad<*>-<*>d-<*>-a<*>-<*>ca<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+eaab5051,[instance: f<*>d<*>ad<*>-<*>d-<*>-a<*>-<*>ca<*>c<*>] <*> <*>,3
+ddebe0b3,"[instance: <*>caef<*>b-c<*>f-<*>bf<*>-bb<*>-c<*>c<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+81f5cdf4,[instance: <*>caef<*>b-c<*>f-<*>bf<*>-bb<*>-c<*>c<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+dbde965b,[instance: <*>caef<*>b-c<*>f-<*>bf<*>-bb<*>-c<*>c<*>c<*>] <*> <*>,3
+1a8e7a62,"[instance: c<*>cd<*>d<*>-<*>-<*>-a<*>-<*>be<*>baa<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+238759b6,[instance: c<*>cd<*>d<*>-<*>-<*>-a<*>-<*>be<*>baa<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a6149575,[instance: c<*>cd<*>d<*>-<*>-<*>-a<*>-<*>be<*>baa<*>] <*> <*>,3
+87b58f76,"[instance: a<*>e<*>c-<*>ef-<*>-<*>-<*>ff<*>a] <*> <*> <*> MB, <*> <*>.<*> MB",2
+30dd36f8,[instance: a<*>e<*>c-<*>ef-<*>-<*>-<*>ff<*>a] Total <*> <*> <*> used: <*>.<*> <*>,2
+c739f8b9,[instance: a<*>e<*>c-<*>ef-<*>-<*>-<*>ff<*>a] <*> <*>,3
+0fef764c,"[instance: <*>ee<*>ca<*>-<*>b<*>-<*>f<*>b-<*>d<*>-<*>ec<*>e<*>a<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d1d69f73,[instance: <*>ee<*>ca<*>-<*>b<*>-<*>f<*>b-<*>d<*>-<*>ec<*>e<*>a<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+059a2443,[instance: <*>ee<*>ca<*>-<*>b<*>-<*>f<*>b-<*>d<*>-<*>ec<*>e<*>a<*>] <*> <*>,3
+0d28a3e1,"[instance: <*>e<*>c-c<*>-<*>a<*>-a<*>b-<*>a<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+28199bc3,[instance: <*>e<*>c-c<*>-<*>a<*>-a<*>b-<*>a<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+39788499,[instance: <*>e<*>c-c<*>-<*>a<*>-a<*>b-<*>a<*>b<*>] <*> <*>,3
+79333620,"[instance: <*>b<*>-<*>-<*>d<*>-bc<*>c-e<*>ff<*>eeeee] <*> <*> <*> MB, <*> <*>.<*> MB",2
+7bac1ab5,[instance: <*>b<*>-<*>-<*>d<*>-bc<*>c-e<*>ff<*>eeeee] Total <*> <*> <*> used: <*>.<*> <*>,2
+49c691d0,[instance: <*>b<*>-<*>-<*>d<*>-bc<*>c-e<*>ff<*>eeeee] <*> <*>,3
+bc37a01e,"[instance: <*>fd<*>be<*>-<*>fc-<*>fb<*>-<*>d<*>-fc<*>c<*>c<*>fdd<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+01482f84,[instance: <*>fd<*>be<*>-<*>fc-<*>fb<*>-<*>d<*>-fc<*>c<*>c<*>fdd<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+a663f14d,[instance: <*>fd<*>be<*>-<*>fc-<*>fb<*>-<*>d<*>-fc<*>c<*>c<*>fdd<*>] <*> <*>,3
+43189a0c,"[instance: <*>fc<*>d-bb<*>-<*>df<*>-b<*>a-<*>a<*>dc<*>f] <*> <*> <*> MB, <*> <*>.<*> MB",2
+7f171592,[instance: <*>fc<*>d-bb<*>-<*>df<*>-b<*>a-<*>a<*>dc<*>f] Total <*> <*> <*> used: <*>.<*> <*>,2
+88b5fe90,[instance: <*>fc<*>d-bb<*>-<*>df<*>-b<*>a-<*>a<*>dc<*>f] <*> <*>,3
+46788aca,"[instance: a<*>b-<*>ad<*>-<*>ec-<*>-bec<*>b<*>ca<*>c<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+6fb3bc93,[instance: a<*>b-<*>ad<*>-<*>ec-<*>-bec<*>b<*>ca<*>c<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+988dc4f4,[instance: a<*>b-<*>ad<*>-<*>ec-<*>-bec<*>b<*>ca<*>c<*>] <*> <*>,3
+8a3dd00e,"[instance: <*>bdd<*>a<*>-bfe<*>-<*>b<*>-<*>c<*>-<*>af<*>e<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+21dc1515,[instance: <*>bdd<*>a<*>-bfe<*>-<*>b<*>-<*>c<*>-<*>af<*>e<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+414c4487,[instance: <*>bdd<*>a<*>-bfe<*>-<*>b<*>-<*>c<*>-<*>af<*>e<*>e<*>] <*> <*>,3
+b8acb945,"[instance: d<*>d<*>-c<*>f-<*>e<*>c-<*>d<*>b-<*>e<*>d<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+2fe77921,[instance: d<*>d<*>-c<*>f-<*>e<*>c-<*>d<*>b-<*>e<*>d<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+74e0ce57,[instance: d<*>d<*>-c<*>f-<*>e<*>c-<*>d<*>b-<*>e<*>d<*>] <*> <*>,3
+f63dd5ed,"[instance: <*>f<*>aa<*>d-<*>d-<*>d<*>-<*>d<*>a-<*>f<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+a99dfc80,[instance: <*>f<*>aa<*>d-<*>d-<*>d<*>-<*>d<*>a-<*>f<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+d80d19af,[instance: <*>f<*>aa<*>d-<*>d-<*>d<*>-<*>d<*>a-<*>f<*>f<*>] <*> <*>,3
+d196cf4e,"[instance: b<*>eb<*>cb-<*>a<*>-<*>-b<*>ec-<*>ea<*>c<*>ee<*>b] <*> <*> <*> MB, <*> <*>.<*> MB",2
+d3ac7e46,[instance: b<*>eb<*>cb-<*>a<*>-<*>-b<*>ec-<*>ea<*>c<*>ee<*>b] Total <*> <*> <*> used: <*>.<*> <*>,2
+bbd642d8,[instance: b<*>eb<*>cb-<*>a<*>-<*>-b<*>ec-<*>ea<*>c<*>ee<*>b] <*> <*>,3
+9d415858,"[instance: <*>d-<*>f<*>-<*>-bfcd-<*>baec<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1e5aa2fa,[instance: <*>d-<*>f<*>-<*>-bfcd-<*>baec<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+9925b03d,[instance: <*>d-<*>f<*>-<*>-bfcd-<*>baec<*>f<*>] <*> <*>,3
+e74e574f,"[instance: b<*>d<*>-<*>f-<*>f-beb<*>-cf<*>fa<*>a<*>dd] <*> <*> <*> MB, <*> <*>.<*> MB",2
+83f8c969,[instance: b<*>d<*>-<*>f-<*>f-beb<*>-cf<*>fa<*>a<*>dd] Total <*> <*> <*> used: <*>.<*> <*>,2
+12dceb5f,[instance: b<*>d<*>-<*>f-<*>f-beb<*>-cf<*>fa<*>a<*>dd] <*> <*>,3
+0d5531e7,"[instance: <*>bcdfd<*>-<*>b-<*>bb-<*>d<*>c-fb<*>e<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+57f42cff,[instance: <*>bcdfd<*>-<*>b-<*>bb-<*>d<*>c-fb<*>e<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+f9e5a67f,[instance: <*>bcdfd<*>-<*>b-<*>bb-<*>d<*>c-fb<*>e<*>e<*>] <*> <*>,3
+fd734279,"[instance: <*>f<*>d<*>-<*>a-<*>d-<*>-<*>f<*>d<*>ec<*>ff] <*> <*> <*> MB, <*> <*>.<*> MB",2
+cfa2a487,[instance: <*>f<*>d<*>-<*>a-<*>d-<*>-<*>f<*>d<*>ec<*>ff] Total <*> <*> <*> used: <*>.<*> <*>,2
+74b1724d,[instance: <*>f<*>d<*>-<*>a-<*>d-<*>-<*>f<*>d<*>ec<*>ff] <*> <*>,3
+4b988b78,"[instance: a<*>efb<*>-cace-<*>e<*>f-<*>-d<*>a<*>e<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+57c807f9,[instance: a<*>efb<*>-cace-<*>e<*>f-<*>-d<*>a<*>e<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+5df33c7d,[instance: a<*>efb<*>-cace-<*>e<*>f-<*>-d<*>a<*>e<*>] <*> <*>,3
+bdf179c5,"[instance: faa<*>b-cfbd-<*>b<*>-a<*>-<*>d<*>b<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+f1e778da,[instance: faa<*>b-cfbd-<*>b<*>-a<*>-<*>d<*>b<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+88047dfa,[instance: faa<*>b-cfbd-<*>b<*>-a<*>-<*>d<*>b<*>] <*> <*>,3
+4b6c949f,"[instance: bd<*>cb<*>b-<*>a-<*>-<*>d<*>-<*>a<*>f<*>b<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+73aa0d05,[instance: bd<*>cb<*>b-<*>a-<*>-<*>d<*>-<*>a<*>f<*>b<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+0b53d6e2,[instance: bd<*>cb<*>b-<*>a-<*>-<*>d<*>-<*>a<*>f<*>b<*>f<*>] <*> <*>,3
+b383bfba,"[instance: <*>c<*>af<*>-<*>e<*>b-<*>f<*>-<*>d-fa<*>ae<*>a<*>eb<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+0caa4110,[instance: <*>c<*>af<*>-<*>e<*>b-<*>f<*>-<*>d-fa<*>ae<*>a<*>eb<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+74db4a80,[instance: <*>c<*>af<*>-<*>e<*>b-<*>f<*>-<*>d-fa<*>ae<*>a<*>eb<*>] <*> <*>,3
+9424a14f,"[instance: e<*>-<*>b<*>-<*>b<*>c-b<*>-a<*>cc<*>cc<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+00c88284,[instance: e<*>-<*>b<*>-<*>b<*>c-b<*>-a<*>cc<*>cc<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+4a14c507,[instance: e<*>-<*>b<*>-<*>b<*>c-b<*>-a<*>cc<*>cc<*>] <*> <*>,3
+72196213,"[instance: <*>d-<*>ee<*>-<*>acd-<*>-<*>dd<*>f<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+99087986,[instance: <*>d-<*>ee<*>-<*>acd-<*>-<*>dd<*>f<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+97d61adc,[instance: <*>d-<*>ee<*>-<*>acd-<*>-<*>dd<*>f<*>] <*> <*>,3
+72230e70,"[instance: <*>d<*>f<*>d-c<*>af-<*>d<*>-a<*>a-ce<*>d<*>c<*>cbbc] <*> <*> <*> MB, <*> <*>.<*> MB",2
+e26f3ce0,[instance: <*>d<*>f<*>d-c<*>af-<*>d<*>-a<*>a-ce<*>d<*>c<*>cbbc] Total <*> <*> <*> used: <*>.<*> <*>,2
+c7567701,[instance: <*>d<*>f<*>d-c<*>af-<*>d<*>-a<*>a-ce<*>d<*>c<*>cbbc] <*> <*>,3
+dd372854,"[instance: a<*>bd<*>ca<*>-<*>be<*>-<*>aa-baea-<*>d<*>fd<*>ac] <*> <*> <*> MB, <*> <*>.<*> MB",2
+1bacd12f,[instance: a<*>bd<*>ca<*>-<*>be<*>-<*>aa-baea-<*>d<*>fd<*>ac] Total <*> <*> <*> used: <*>.<*> <*>,2
+b2131466,[instance: a<*>bd<*>ca<*>-<*>be<*>-<*>aa-baea-<*>d<*>fd<*>ac] <*> <*>,3
+68850cc4,"[instance: a<*>a<*>-b<*>-<*>ad<*>-<*>a<*>-ad<*>a<*>eb<*>] <*> <*> <*> MB, <*> <*>.<*> MB",2
+5f2bdc61,[instance: a<*>a<*>-b<*>-<*>ad<*>-<*>a<*>-ad<*>a<*>eb<*>] Total <*> <*> <*> used: <*>.<*> <*>,2
+99002b47,[instance: a<*>a<*>-b<*>-<*>ad<*>-<*>a<*>-ad<*>a<*>eb<*>] <*> <*>,3
+98afa4e9,"[instance: <*>b<*>ace<*>-<*>-<*>c<*>-a<*>e-<*>e<*>d<*>f<*>a<*>f] <*> <*> <*> MB, <*> <*>.<*> MB",2
+25dad47e,[instance: <*>b<*>ace<*>-<*>-<*>c<*>-a<*>e-<*>e<*>d<*>f<*>a<*>f] Total <*> <*> <*> used: <*>.<*> <*>,2
+59feb6b6,[instance: <*>b<*>ace<*>-<*>-<*>c<*>-a<*>e-<*>e<*>d<*>f<*>a<*>f] <*> <*>,2
