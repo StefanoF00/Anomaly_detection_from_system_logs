@@ -29,7 +29,6 @@ if __name__ == '__main__':
     ###########
     test_abnormal_list = []
     with open('data_parsed/OpenStack/test_abnormal', 'r') as f:
-    #with open('../Version1/data_parsed/OpenStack/test_abnormal', 'r') as f:
         for line in f.readlines():
             line = list(map(lambda n: n - 1, map(int, line.strip().split())))
             request = json.dumps({'line': line})
@@ -39,8 +38,7 @@ if __name__ == '__main__':
 
     test_normal_list = []
     with open('data_parsed/OpenStack/test_normal', 'r') as f:
-    #with open('../Version1/data_parsed/OpenStack/test_normal', 'r') as f:
-         for line in f.readlines():
+        for line in f.readlines():
             line = list(map(lambda n: n - 1, map(int, line.strip().split())))
             request = json.dumps({'line': line})
             input_data = input_fn(request, 'application/json')
@@ -99,3 +97,4 @@ if __name__ == '__main__':
     print(f'Recall: {recall}')
     print(f'F1: {F1}')
     print('percentage values:\nPrecision: {:.3f}%, Recall: {:.3f}%, F1: {:.3f}%'.format(precision*100, recall*100, F1*100))
+

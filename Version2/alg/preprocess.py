@@ -92,7 +92,7 @@ if __name__ == '__main__':
     deeplog_test_abnormal = deeplog_df_transfer(df_abnormal, event_id_map)
     test_abnormal_file = os.path.join(parsed_dir, 'test_abnormal') 
     deeplog_file_generator(test_abnormal_file, deeplog_test_abnormal)
-
+    
     ##################
     # num of classes #
     ##################

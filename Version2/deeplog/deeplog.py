@@ -86,7 +86,6 @@ class Generate():
 def _get_train_data_loader(batch_size, is_distributed, window_size, local, **kwargs):
     logger.info("Get train data loader")
     _generate = Generate()
-    #seq_dataset = _generate.generate(name='../Version1/data_parsed/OpenStack/train', window_size=window_size, local=local)
     seq_dataset = _generate.generate(name='data_parsed/OpenStack/train', window_size=window_size, local=local)
     train_sampler = torch.utils.data.distributed.DistributedSampler(seq_dataset) if is_distributed else None
     dataloader = DataLoader(seq_dataset, batch_size=batch_size, shuffle=train_sampler is None,

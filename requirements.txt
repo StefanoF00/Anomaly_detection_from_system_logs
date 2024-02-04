@@ -1,4 +1,0 @@
-torch==1.5.1
-tensorboard==2.0.2
-boto3==1.14.12
-spellpy==0.0.9
